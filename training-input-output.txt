@@ -1,0 +1,894 @@
+name : cite
+addr : 120 w. 51st st.
+city : new york
+postal : 10019
+latlng : (40.7607952, -73.9812268)
+addr_variations : frozenset({'120 west 51st saint', '120 west 51 saint', '120 w 51st street', '120 w 51st saint', '120 west 51st street', '120 w 51 saint', '120 w 51 street', '120 west 51 street'})
+
+name : new york noodletown
+addr : 28 1/2 bowery at bayard st.
+city : new york
+postal : 10013
+latlng : (40.7150317, -73.9970383)
+addr_variations : frozenset({'28 1 2 bowery at bayard saint', '28 1 2 bowery at bayard street'})
+
+0/10 positive, 0/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished
+n
+name : bernardin
+addr : 155 w. 51st st.
+city : new york city
+postal : 10019
+latlng : (40.7615691, -73.98180479999999)
+addr_variations : frozenset({'155 w 51st saint', '155 west 51st saint', '155 w 51st street', '155 west 51 saint', '155 w 51 street', '155 w 51 saint', '155 west 51 street', '155 west 51st street'})
+
+name : republic
+addr : 37a union sq. w  between 16th and 17th sts.
+city : new york
+postal : 10003
+latlng : (40.7369985, -73.9907851)
+addr_variations : frozenset({'37a union square w between 16th and 17 streets', '37 a union square west between 16th and 17 streets', '37a union square w between 16th and 17th streets', '37 a union square west between 16th and 17th streets', '37 a union square west between 16 and 17th streets', '37 a union square w between 16th and 17th streets', '37 a union square w between 16 and 17 streets', '37 a union square w between 16th and 17 streets', '37 a union square west between 16 and 17 streets', '37 a union square w between 16 and 17th streets', '37a union square w between 16 and 17 streets', '37a union square w between 16 and 17th streets', '37a union square west between 16 and 17th streets', '37a union square west between 16 and 17 streets', '37a union square west between 16th and 17 streets', '37a union square west between 16th and 17th streets'})
+
+0/10 positive, 1/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+n
+name : dawat
+addr : 210 e. 58th st.
+city : new york
+postal : None
+latlng : None
+addr_variations : frozenset({'210 e 58 street', '210 e 58th saint', '210 east 58 saint', '210 east 58th street', '210 east 58 street', '210 e 58 saint', '210 e 58th street', '210 east 58th saint'})
+
+name : dawat
+addr : 210 e. 58th st.
+city : new york city
+postal : 10022
+latlng : (40.7604227, -73.9664276)
+addr_variations : frozenset({'210 e 58 street', '210 e 58th saint', '210 east 58 saint', '210 east 58th street', '210 east 58 street', '210 e 58 saint', '210 e 58th street', '210 east 58th saint'})
+
+0/10 positive, 2/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+y
+name : art delicatessen
+addr : 12224 ventura blvd.
+city : studio city
+postal : 91604
+latlng : (34.1429661, -118.3994688)
+addr_variations : frozenset({'12224 ventura boulevard'})
+
+name : art deli
+addr : 12224 ventura blvd.
+city : los angeles
+postal : 91604
+latlng : (34.1429661, -118.3994688)
+addr_variations : frozenset({'12224 ventura boulevard'})
+
+1/10 positive, 2/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+y
+INFO:dedupe.training:Final predicate set:
+INFO:dedupe.training:(SimplePredicate: (fingerprint, addr), SimplePredicate: (wholeFieldPredicate, name))
+name : gotham bar grill
+addr : 12 e 12th st
+city : new york city
+postal : 10003
+latlng : (40.734207, -73.99369899999999)
+addr_variations : frozenset({'12 e 12th street', '12 east 12 saint', '12 e 12 street', '12 e 12 saint', '12 east 12th saint', '12 east 12th street', '12 east 12 street', '12 e 12th saint'})
+
+name : gotham
+addr : 12 e 12th st
+city : new york
+postal : 10003
+latlng : (40.734207, -73.99369899999999)
+addr_variations : frozenset({'12 e 12th street', '12 east 12 saint', '12 e 12 street', '12 e 12 saint', '12 east 12th saint', '12 east 12th street', '12 east 12 street', '12 e 12th saint'})
+
+2/10 positive, 2/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+y
+INFO:dedupe.training:Final predicate set:
+INFO:dedupe.training:(SimplePredicate: (fingerprint, addr), SimplePredicate: (sortedAcronym, name))
+name : dawat
+addr : 210 e. 58th st.
+city : new york
+postal : None
+latlng : None
+addr_variations : frozenset({'210 e 58 street', '210 e 58th saint', '210 east 58 saint', '210 east 58th street', '210 east 58 street', '210 e 58 saint', '210 e 58th street', '210 east 58th saint'})
+
+name : rainbow restaurant
+addr : 2118 n. decatur rd.
+city : decatur
+postal : 30033
+latlng : (33.7908588, -84.3052307)
+addr_variations : frozenset({'2118 north decatur road', '2118 n decatur road'})
+
+3/10 positive, 2/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+n
+INFO:dedupe.training:Final predicate set:
+INFO:dedupe.training:(SimplePredicate: (fingerprint, addr), TfidfNGramCanopyPredicate: (0.6, name))
+name : yujean kang gourmet chinese cuisine
+addr : 67 n. raymond ave.
+city : los angeles
+postal : 91103
+latlng : (34.147086, -118.1490988)
+addr_variations : frozenset({'67 nord raymond avenue', '67 n raymond avenue', '67 north raymond avenue'})
+
+name : ruby
+addr : 45 s. fair oaks ave.
+city : pasadena
+postal : 91105
+latlng : (34.1449715, -118.1506038)
+addr_variations : frozenset({'45 s fair oaks avenue', '45 south fair oaks avenue', '45 san fair oaks avenue'})
+
+3/10 positive, 3/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+n
+name : plumpjack cafe
+addr : 3201 fillmore st.
+city : san francisco
+postal : 94123
+latlng : (37.79911990000001, -122.4360911)
+addr_variations : frozenset({'3201 fillmore street', '3201 fillmore saint'})
+
+name : plumpjack cafe
+addr : 3127 fillmore st.
+city : san francisco
+postal : 94123
+latlng : (37.79834090000001, -122.4359412)
+addr_variations : frozenset({'3127 fillmore street', '3127 fillmore saint'})
+
+3/10 positive, 4/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+y
+name : dining room ritz carlton buckhead
+addr : 3434 peachtree rd.
+city : atlanta
+postal : 30326
+latlng : (33.8508073, -84.364227)
+addr_variations : frozenset({'3434 peachtree road'})
+
+name : ritz carlton dining room buckhead
+addr : 3434 peachtree rd. ne
+city : atlanta
+postal : 30326
+latlng : (33.8508073, -84.364227)
+addr_variations : frozenset({'3434 peachtree road northeast', '3434 peachtree road ne', '3434 peachtree road nebraska'})
+
+4/10 positive, 4/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+y
+INFO:dedupe.training:Final predicate set:
+INFO:dedupe.training:(SimplePredicate: (suffixArray, addr), TfidfNGramCanopyPredicate: (0.6, name))
+name : coyote cafe
+addr : 3799 las vegas blvd. s
+city : las vegas
+postal : 89109
+latlng : (36.1022507, -115.1699679)
+addr_variations : frozenset({'3799 las vegas boulevard sur', '3799 las vegas boulevard san', '3799 las vegas boulevard south', '3799 las vegas boulevard s'})
+
+name : tre visi
+addr : 3799 las vegas blvd. s.
+city : las vegas
+postal : 89109
+latlng : (36.1022507, -115.1699679)
+addr_variations : frozenset({'3799 las vegas boulevard sur', '3799 las vegas boulevard san', '3799 las vegas boulevard south', '3799 las vegas boulevard s'})
+
+5/10 positive, 4/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+n
+INFO:dedupe.training:Final predicate set:
+INFO:dedupe.training:(SimplePredicate: (commonTwoTokens, addr), TfidfNGramCanopyPredicate: (0.6, name))
+name : osteria del forno
+addr : 519 columbus ave.
+city : san francisco
+postal : 94133
+latlng : (37.799736, -122.4096355)
+addr_variations : frozenset({'519 columbus avenue'})
+
+name : caffe greco
+addr : 423 columbus ave.
+city : san francisco
+postal : 94133
+latlng : (37.7989568, -122.4086733)
+addr_variations : frozenset({'423 columbus avenue'})
+
+5/10 positive, 5/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+n
+name : orangerie
+addr : 903 n. la cienega blvd.
+city : los angeles
+postal : 90069
+latlng : (34.0870981, -118.376626)
+addr_variations : frozenset({'903 norte louisiana cienega boulevard', '903 north louisiana cienega boulevard', '903 norte lane cienega boulevard', '903 north lane cienega boulevard', '903 north la cienega boulevard', '903 n la cienega boulevard', '903 n lane cienega boulevard', '903 n louisiana cienega boulevard', '903 norte la cienega boulevard'})
+
+name : drai
+addr : 730 n. la cienega blvd.
+city : los angeles
+postal : 90069
+latlng : (34.0845064, -118.3761899)
+addr_variations : frozenset({'730 north louisiana cienega boulevard', '730 n lane cienega boulevard', '730 norte la cienega boulevard', '730 n la cienega boulevard', '730 norte louisiana cienega boulevard', '730 n louisiana cienega boulevard', '730 north lane cienega boulevard', '730 north la cienega boulevard', '730 norte lane cienega boulevard'})
+
+5/10 positive, 6/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+n
+name : philippe original
+addr : 1001 n. alameda st.
+city : los angeles
+postal : 90012
+latlng : (34.059721, -118.237025)
+addr_variations : frozenset({'1001 n alameda saint', '1001 n alameda santo', '1001 north alameda street', '1001 north alameda santo', '1001 norte alameda saint', '1001 nosso alameda saint', '1001 norte alameda santo', '1001 nosso alameda santo', '1001 n alameda street', '1001 nosso alameda street', '1001 north alameda saint', '1001 norte alameda street'})
+
+name : philippe original
+addr : 1001 north alameda
+city : los angeles
+postal : 90012
+latlng : (34.059721, -118.237025)
+addr_variations : frozenset({'1001 north alameda'})
+
+5/10 positive, 7/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+y
+name : chin
+addr : 3200 las vegas blvd. s
+city : las vegas
+postal : 89109
+latlng : (36.1275236, -115.1715003)
+addr_variations : frozenset({'3200 las vegas boulevard s', '3200 las vegas boulevard sur', '3200 las vegas boulevard south', '3200 las vegas boulevard san'})
+
+name : morton chicago las vegas
+addr : 3200 las vegas blvd. s.
+city : las vegas
+postal : 89109
+latlng : (36.1275236, -115.1715003)
+addr_variations : frozenset({'3200 las vegas boulevard s', '3200 las vegas boulevard sur', '3200 las vegas boulevard south', '3200 las vegas boulevard san'})
+
+6/10 positive, 7/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+n
+INFO:dedupe.training:Final predicate set:
+INFO:dedupe.training:(TfidfNGramCanopyPredicate: (0.6, addr), TfidfNGramCanopyPredicate: (0.6, name))
+name : locanda veneta
+addr : 3rd st.
+city : los angeles
+postal : None
+latlng : (33.4947903, -112.069374)
+addr_variations : frozenset({'3 street', '3rd saint', '3 saint', '3rd street'})
+
+name : sofi
+addr : 3rd st.
+city : los angeles
+postal : None
+latlng : (33.4947903, -112.069374)
+addr_variations : frozenset({'3 street', '3rd saint', '3 saint', '3rd street'})
+
+6/10 positive, 8/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+n
+name : hotel bel air
+addr : 701 stone canyon rd.
+city : bel air
+postal : 90077
+latlng : (34.0865944, -118.4463507)
+addr_variations : frozenset({'701 stone canyon road'})
+
+name : bel air hotel
+addr : 701 stone canyon rd.
+city : bel air
+postal : 90077
+latlng : (34.0865944, -118.4463507)
+addr_variations : frozenset({'701 stone canyon road'})
+
+6/10 positive, 9/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+y
+name : fenix
+addr : 8358 sunset blvd. west
+city : hollywood
+postal : 90069
+latlng : (34.0950968, -118.3719666)
+addr_variations : frozenset({'8358 sunset boulevard west'})
+
+name : fenix at argyle
+addr : 8358 sunset blvd. west
+city : hollywood
+postal : 90069
+latlng : (34.0950968, -118.3719666)
+addr_variations : frozenset({'8358 sunset boulevard west'})
+
+7/10 positive, 9/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+y
+name : lulu
+addr : 816 folsom st.
+city : san francisco
+postal : 94107
+latlng : (37.7817926, -122.4018175)
+addr_variations : frozenset({'816 folsom saint', '816 folsom street'})
+
+name : lulu restaurant bis cafe
+addr : 816 folsom st.
+city : san francisco
+postal : 94107
+latlng : (37.7817926, -122.4018175)
+addr_variations : frozenset({'816 folsom saint', '816 folsom street'})
+
+8/10 positive, 9/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+y
+INFO:dedupe.training:Final predicate set:
+INFO:dedupe.training:(TfidfNGramCanopyPredicate: (0.4, name), TfidfNGramCanopyPredicate: (0.6, addr))
+name : pinot bistro
+addr : 12969 ventura blvd.
+city : los angeles
+postal : 91604
+latlng : (34.14571950000001, -118.4160795)
+addr_variations : frozenset({'12969 ventura boulevard'})
+
+name : pinot bistro
+addr : 12969 ventura boulevard
+city : studio city
+postal : 91604
+latlng : (34.14571950000001, -118.4160795)
+addr_variations : frozenset({'12969 ventura boulevard'})
+
+9/10 positive, 9/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+y
+INFO:dedupe.training:Final predicate set:
+INFO:dedupe.training:(SimplePredicate: (fingerprint, addr), SimplePredicate: (sameThreeCharStartPredicate, name))
+INFO:dedupe.training:(SimplePredicate: (fingerprint, city), SimplePredicate: (fingerprint, name))
+name : gramercy tavern
+addr : 42 e. 20th st.  between park ave. s and broadway
+city : new york
+postal : 10003
+latlng : (40.7384555, -73.98850639999999)
+addr_variations : frozenset({'42 east 20th saint between park avenue s and broadway', '42 e 20 saint between park avenue south and broadway', '42 east 20 street between park avenue san and broadway', '42 e 20th saint between park avenue san and broadway', '42 east 20 street between park avenue s and broadway', '42 east 20 saint between park avenue s and broadway', '42 east 20th street between park avenue south and broadway', '42 east 20th saint between park avenue san and broadway', '42 e 20th street between park avenue san and broadway', '42 east 20th saint between park avenue south and broadway', '42 east 20th street between park avenue s and broadway', '42 east 20 saint between park avenue san and broadway', '42 e 20th saint between park avenue south and broadway', '42 e 20th saint between park avenue s and broadway', '42 e 20th street between park avenue s and broadway', '42 e 20 street between park avenue s and broadway', '42 east 20 street between park avenue south and broadway', '42 e 20 saint between park avenue s and broadway', '42 e 20 street between park avenue san and broadway', '42 e 20 saint between park avenue san and broadway', '42 e 20th street between park avenue south and broadway', '42 east 20 saint between park avenue south and broadway', '42 e 20 street between park avenue south and broadway', '42 east 20th street between park avenue san and broadway'})
+
+name : gramercy tavern
+addr : 42 e. 20th st.
+city : new york city
+postal : 10003
+latlng : (40.7384647, -73.9884665)
+addr_variations : frozenset({'42 e 20 street', '42 e 20th saint', '42 east 20 saint', '42 east 20th street', '42 e 20 saint', '42 east 20th saint', '42 east 20 street', '42 e 20th street'})
+
+10/10 positive, 9/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+y
+INFO:dedupe.training:Final predicate set:
+INFO:dedupe.training:(SimplePredicate: (commonTwoTokens, name), SimplePredicate: (fingerprint, name))
+INFO:dedupe.training:(SimplePredicate: (fingerprint, addr), SimplePredicate: (sameThreeCharStartPredicate, name))
+name : montrachet
+addr : 239 w. broadway  between walker and white sts.
+city : new york
+postal : 10013
+latlng : (40.7195598, -74.0057489)
+addr_variations : frozenset({'239 west broadway between walker and white streets', '239 w broadway between walker and white streets'})
+
+name : montrachet
+addr : 239 w. broadway
+city : new york city
+postal : 10013
+latlng : (40.7194666, -74.0057516)
+addr_variations : frozenset({'239 west broadway', '239 w broadway'})
+
+11/10 positive, 9/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+y
+name : smith wollensky
+addr : 201 e. 49th st.
+city : new york
+postal : 10017
+latlng : (40.755156, -73.9707177)
+addr_variations : frozenset({'201 e 49 street', '201 e 49 saint', '201 east 49 street', '201 east 49 saint', '201 east 49th street', '201 e 49th saint', '201 e 49th street', '201 east 49th saint'})
+
+name : smith wollensky
+addr : 797 third ave.
+city : new york city
+postal : 10022
+latlng : (40.7551704, -73.9707437)
+addr_variations : frozenset({'797 3 avenue', '797 3rd avenue'})
+
+12/10 positive, 9/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+y
+INFO:dedupe.training:Final predicate set:
+INFO:dedupe.training:(SimplePredicate: (sameSevenCharStartPredicate, addr), SimplePredicate: (sameThreeCharStartPredicate, name))
+INFO:dedupe.training:(SimplePredicate: (fingerprint, city), SimplePredicate: (fingerprint, name))
+name : postrio
+addr : 545 post st.
+city : san francisco
+postal : 94102
+latlng : (37.78782959999999, -122.4107561)
+addr_variations : frozenset({'545 post saint', '545 post street'})
+
+name : pacific pan pacific hotel
+addr : 500 post st.
+city : san francisco
+postal : 94102
+latlng : (37.7883396, -122.4103029)
+addr_variations : frozenset({'500 post saint', '500 post street'})
+
+13/10 positive, 9/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+n
+INFO:dedupe.training:Final predicate set:
+INFO:dedupe.training:(SimplePredicate: (commonTwoTokens, name), SimplePredicate: (fingerprint, name))
+INFO:dedupe.training:(SimplePredicate: (commonThreeTokens, addr), SimplePredicate: (firstTokenPredicate, name))
+name : teresa
+addr : 103 1st ave.  between 6th and 7th sts.
+city : new york
+postal : 10003
+latlng : (40.7266961, -73.9861943)
+addr_variations : frozenset({'103 1 avenue between 6th and 7 streets', '103 1 avenue between 6 and 7th streets', '103 1 avenue between 6 and 7 streets', '103 1st avenue between 6th and 7th streets', '103 1 avenue between 6th and 7th streets', '103 1st avenue between 6 and 7th streets', '103 1st avenue between 6 and 7 streets', '103 1st avenue between 6th and 7 streets'})
+
+name : teresa
+addr : 80 montague st.
+city : queens
+postal : 11201
+latlng : (40.6951748, -73.9962484)
+addr_variations : frozenset({'80 montague street', '80 montague saint'})
+
+13/10 positive, 10/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+n
+name : cafe ritz carlton buckhead
+addr : 3434 peachtree rd.
+city : atlanta
+postal : 30326
+latlng : (33.8508073, -84.364227)
+addr_variations : frozenset({'3434 peachtree road'})
+
+name : dining room ritz carlton buckhead
+addr : 3434 peachtree rd.
+city : atlanta
+postal : 30326
+latlng : (33.8508073, -84.364227)
+addr_variations : frozenset({'3434 peachtree road'})
+
+13/10 positive, 11/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+n
+name : tavern green
+addr : in central park at 67th st.
+city : new york
+postal : 10023
+latlng : (40.7730403, -73.97829449999999)
+addr_variations : frozenset({'in central park at 67th saint', 'in central park at 67th street', 'indiana central park at 67th saint', 'in central park at 67 street', 'indiana central park at 67 saint', 'indiana central park at 67 street', 'in central park at 67 saint', 'indiana central park at 67th street'})
+
+name : tavern green
+addr : central park west
+city : new york city
+postal : None
+latlng : (40.7848582, -73.9696519)
+addr_variations : frozenset({'central park west'})
+
+13/10 positive, 12/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+y
+name : montrachet
+addr : 3000 w. paradise rd.
+city : las vegas
+postal : 89109
+latlng : (36.1362611, -115.1512539)
+addr_variations : frozenset({'3000 w paradise road', '3000 west paradise road'})
+
+name : montrachet bistro
+addr : 3000 paradise rd.
+city : las vegas
+postal : 89109
+latlng : (36.1362611, -115.1512539)
+addr_variations : frozenset({'3000 paradise road'})
+
+14/10 positive, 12/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+y
+name : c3
+addr : 103 waverly pl.  near washington sq.
+city : new york
+postal : 10011
+latlng : (40.7324496, -73.9987276)
+addr_variations : frozenset({'103 waverly place near washington square', '103 waverly plain near washington square'})
+
+name : caffe dell artista
+addr : 46 greenwich ave.
+city : new york
+postal : 10011
+latlng : (40.735596, -74.000357)
+addr_variations : frozenset({'46 greenwich avenue'})
+
+15/10 positive, 12/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+n
+INFO:dedupe.training:Final predicate set:
+INFO:dedupe.training:(SimplePredicate: (fingerprint, name), SimplePredicate: (latLongGridPredicate, latlng))
+INFO:dedupe.training:(LevenshteinCanopyPredicate: (2, addr), SimplePredicate: (firstTokenPredicate, name))
+name : main street
+addr : 446 columbus ave.  between 81st and 82nd sts.
+city : new york
+postal : 10024
+latlng : (40.784841, -73.97746599999999)
+addr_variations : frozenset({'446 columbus avenue between 81st and 82nd streets', '446 columbus avenue between 81 and 82 streets', '446 columbus avenue between 81 and 82nd streets', '446 columbus avenue between 81st and 82 streets'})
+
+name : rain
+addr : 100 w. 82nd st.
+city : new york
+postal : 10024
+latlng : (40.7839758, -73.9745045)
+addr_variations : frozenset({'100 west 82nd saint', '100 w 82nd street', '100 west 82 street', '100 west 82 saint', '100 w 82nd saint', '100 w 82 street', '100 west 82nd street', '100 w 82 saint'})
+
+15/10 positive, 13/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+n
+name : folie
+addr : 2316 polk st.
+city : san francisco
+postal : 94109
+latlng : (37.7981417, -122.4220609)
+addr_variations : frozenset({'2316 polk saint', '2316 polk street'})
+
+name : mario bohemian cigar store cafe
+addr : 2209 polk st.
+city : san francisco
+postal : 94109
+latlng : (37.7971197, -122.4222379)
+addr_variations : frozenset({'2209 polk saint', '2209 polk street'})
+
+15/10 positive, 14/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+n
+name : locanda veneta
+addr : 3rd st.
+city : los angeles
+postal : None
+latlng : (33.4947903, -112.069374)
+addr_variations : frozenset({'3 street', '3rd saint', '3 saint', '3rd street'})
+
+name : cava
+addr : 3rd st.
+city : los angeles
+postal : None
+latlng : (33.4947903, -112.069374)
+addr_variations : frozenset({'3 street', '3rd saint', '3 saint', '3rd street'})
+
+15/10 positive, 15/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+n
+name : lanza restaurant
+addr : 168 1st ave.  between 10th and 11th sts.
+city : new york
+postal : 10009
+latlng : (40.728755, -73.98406500000002)
+addr_variations : frozenset({'168 1st avenue between 10 and 11th streets', '168 1 avenue between 10th and 11th streets', '168 1st avenue between 10th and 11th streets', '168 1st avenue between 10th and 11 streets', '168 1 avenue between 10 and 11 streets', '168 1 avenue between 10 and 11th streets', '168 1 avenue between 10th and 11 streets', '168 1st avenue between 10 and 11 streets'})
+
+name : xunta
+addr : 174 1st ave.  between 10th and 11th sts.
+city : new york
+postal : 10009
+latlng : (40.72907, -73.983948)
+addr_variations : frozenset({'174 1st avenue between 10 and 11th streets', '174 1 avenue between 10 and 11 streets', '174 1st avenue between 10th and 11 streets', '174 1 avenue between 10th and 11th streets', '174 1st avenue between 10th and 11th streets', '174 1st avenue between 10 and 11 streets', '174 1 avenue between 10th and 11 streets', '174 1 avenue between 10 and 11th streets'})
+
+15/10 positive, 16/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+n
+name : ritz carlton restaurant dining room
+addr : 600 stockton st.
+city : san francisco
+postal : 94108
+latlng : (37.7918754, -122.4070392)
+addr_variations : frozenset({'600 stockton street', '600 stockton saint'})
+
+name : ritz carlton dining room san francisco
+addr : 600 stockton st.
+city : san francisco
+postal : 94108
+latlng : (37.7918754, -122.4070392)
+addr_variations : frozenset({'600 stockton street', '600 stockton saint'})
+
+15/10 positive, 17/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+y
+name : arnie morton chicago
+addr : 435 s. la cienega blv.
+city : los angeles
+postal : 90048
+latlng : (34.070609, -118.376722)
+addr_variations : frozenset({'435 san louisiana cienega boulevard', '435 south lane cienega bulevar', '435 sur la cienega boulevard', '435 south la cienega boulevard', '435 san la cienega bulevar', '435 sur la cienega bulevar', '435 south louisiana cienega bulevar', '435 sur lane cienega boulevard', '435 south louisiana cienega boulevard', '435 sur louisiana cienega bulevar', '435 s la cienega bulevar', '435 sur lane cienega bulevar', '435 s louisiana cienega bulevar', '435 south la cienega bulevar', '435 san lane cienega bulevar', '435 s lane cienega boulevard', '435 san lane cienega boulevard', '435 s louisiana cienega boulevard', '435 s lane cienega bulevar', '435 san la cienega boulevard', '435 s la cienega boulevard', '435 san louisiana cienega bulevar', '435 south lane cienega boulevard', '435 sur louisiana cienega boulevard'})
+
+name : arnie morton
+addr : 435 s. la cienega boulevard
+city : los angeles
+postal : 90048
+latlng : (34.070609, -118.376722)
+addr_variations : frozenset({'435 south la cienega boulevard', '435 san la cienega boulevard', '435 s la cienega boulevard', '435 san louisiana cienega boulevard', '435 south lane cienega boulevard', '435 s lane cienega boulevard', '435 san lane cienega boulevard', '435 s louisiana cienega boulevard', '435 south louisiana cienega boulevard'})
+
+16/10 positive, 17/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+y
+name : palm
+addr : 9001 santa monica blvd.
+city : los angeles
+postal : 90069
+latlng : (34.083064, -118.387282)
+addr_variations : frozenset({'9001 santa monica boulevard'})
+
+name : palm los angeles
+addr : 9001 sta monica boulevard
+city : hollywood
+postal : 90069
+latlng : (34.083064, -118.387282)
+addr_variations : frozenset({'9001 station monica boulevard', '9001 santa monica boulevard'})
+
+17/10 positive, 17/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+y
+INFO:dedupe.training:Final predicate set:
+INFO:dedupe.training:(SimplePredicate: (commonTwoTokens, addr), SimplePredicate: (firstTokenPredicate, name))
+INFO:dedupe.training:(SimplePredicate: (commonTwoTokens, name), SimplePredicate: (fingerprint, name))
+name : caffe lure
+addr : 169 sullivan st.  between houston and bleecker sts.
+city : new york
+postal : 10012
+latlng : (40.7279278, -74.0009847)
+addr_variations : frozenset({'169 sullivan street between houston and bleecker streets', '169 sullivan saint between houston and bleecker streets'})
+
+name : caffe reggio
+addr : 119 macdougal st.  between 3rd and bleecker sts.
+city : new york
+postal : 10012
+latlng : (40.73030790000001, -74.0003706)
+addr_variations : frozenset({'119 macdougal saint between 3 and bleecker streets', '119 macdougal saint between 3rd and bleecker streets', '119 macdougal street between 3rd and bleecker streets', '119 macdougal street between 3 and bleecker streets'})
+
+18/10 positive, 17/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+n
+INFO:dedupe.training:Final predicate set:
+INFO:dedupe.training:(SimplePredicate: (firstTokenPredicate, name), TfidfNGramCanopyPredicate: (0.6, addr))
+INFO:dedupe.training:(SimplePredicate: (commonTwoTokens, name), SimplePredicate: (fingerprint, name))
+name : fringale
+addr : 570 4th st.
+city : san francisco
+postal : 94107
+latlng : (37.7785416, -122.3971931)
+addr_variations : frozenset({'570 4th street', '570 4 street', '570 4 saint', '570 4th saint'})
+
+name : fringale
+addr : 570 fourth st.
+city : san francisco
+postal : 94107
+latlng : (37.7785416, -122.3971931)
+addr_variations : frozenset({'570 4th street', '570 4 street', '570 4 saint', '570 4th saint'})
+
+18/10 positive, 18/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+y
+name : locanda veneta
+addr : 8638 w 3rd
+city : st los angeles
+postal : 90048
+latlng : (34.0734172, -118.3810964)
+addr_variations : frozenset({'8638 wohnung 3rd', '8638 w 3', '8638 wohnung 3', '8638 weg 3', '8638 west 3rd', '8638 w 3rd', '8638 west 3', '8638 weg 3rd'})
+
+name : locanda
+addr : w. third st.
+city : st los angeles
+postal : None
+latlng : (34.0689584, -118.3209281)
+addr_variations : frozenset({'west 3 street', 'w 3 saint', 'west 3rd street', 'w 3rd street', 'w 3 street', 'west 3 saint', 'w 3rd saint', 'west 3rd saint'})
+
+19/10 positive, 18/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+y
+INFO:dedupe.training:Final predicate set:
+INFO:dedupe.training:(SimplePredicate: (firstTokenPredicate, name), SimplePredicate: (sameThreeCharStartPredicate, addr))
+INFO:dedupe.training:(SimplePredicate: (commonTwoTokens, name), SimplePredicate: (fingerprint, name))
+name : locanda veneta
+addr : 3rd st.
+city : los angeles
+postal : None
+latlng : (33.4947903, -112.069374)
+addr_variations : frozenset({'3 street', '3rd saint', '3 saint', '3rd street'})
+
+name : locanda veneta
+addr : 8638 w. third st.
+city : los angeles
+postal : 90048
+latlng : (34.0734172, -118.3810964)
+addr_variations : frozenset({'8638 west 3rd street', '8638 west 3 street', '8638 w 3 saint', '8638 west 3 saint', '8638 w 3rd street', '8638 west 3rd saint', '8638 w 3rd saint', '8638 w 3 street'})
+
+20/10 positive, 18/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+y
+INFO:dedupe.training:Final predicate set:
+INFO:dedupe.training:(SimplePredicate: (firstTokenPredicate, name), SimplePredicate: (sameThreeCharStartPredicate, addr))
+INFO:dedupe.training:(SimplePredicate: (commonTwoTokens, name), SimplePredicate: (fingerprint, name))
+INFO:dedupe.training:(SimplePredicate: (commonThreeTokens, city), SimplePredicate: (sameSevenCharStartPredicate, name))
+name : locanda veneta
+addr : 3rd st.
+city : los angeles
+postal : None
+latlng : (33.4947903, -112.069374)
+addr_variations : frozenset({'3 street', '3rd saint', '3 saint', '3rd street'})
+
+name : locanda veneta
+addr : 8638 w 3rd
+city : st los angeles
+postal : 90048
+latlng : (34.0734172, -118.3810964)
+addr_variations : frozenset({'8638 wohnung 3rd', '8638 w 3', '8638 wohnung 3', '8638 weg 3', '8638 west 3rd', '8638 w 3rd', '8638 west 3', '8638 weg 3rd'})
+
+21/10 positive, 18/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+y
+name : ritz carlton dining room buckhead
+addr : 3434 peachtree rd. ne
+city : atlanta
+postal : 30326
+latlng : (33.8508073, -84.364227)
+addr_variations : frozenset({'3434 peachtree road northeast', '3434 peachtree road ne', '3434 peachtree road nebraska'})
+
+name : monte carlo
+addr : 3145 las vegas blvd. s.
+city : las vegas
+postal : 89109
+latlng : (36.127675, -115.1664725)
+addr_variations : frozenset({'3145 las vegas boulevard san', '3145 las vegas boulevard s', '3145 las vegas boulevard south', '3145 las vegas boulevard sur'})
+
+22/10 positive, 18/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+n
+name : park avenue cafe
+addr : 100 e. 63rd st.
+city : new york
+postal : 10065
+latlng : (40.7650225, -73.9676044)
+addr_variations : frozenset({'100 east 63rd saint', '100 east 63 street', '100 east 63 saint', '100 e 63rd saint', '100 east 63rd street', '100 e 63 saint', '100 e 63 street', '100 e 63rd street'})
+
+name : west beach cafe
+addr : 60 n. venice blvd.
+city : los angeles
+postal : 90291
+latlng : (33.984674, -118.4703147)
+addr_variations : frozenset({'60 n venice boulevard', '60 north venice boulevard'})
+
+22/10 positive, 19/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+n
+name : rain
+addr : 100 w. 82nd st.
+city : new york
+postal : 10024
+latlng : (40.7839758, -73.9745045)
+addr_variations : frozenset({'100 west 82nd saint', '100 w 82nd street', '100 west 82 street', '100 west 82 saint', '100 w 82nd saint', '100 w 82 street', '100 west 82nd street', '100 w 82 saint'})
+
+name : splendido embarcadero
+addr : 4
+city : san francisco
+postal : None
+latlng : (37.7773755, -122.395447)
+addr_variations : frozenset({'4'})
+
+22/10 positive, 20/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+n
+name : cava
+addr : 3rd st.
+city : los angeles
+postal : None
+latlng : (33.4947903, -112.069374)
+addr_variations : frozenset({'3 street', '3rd saint', '3 saint', '3rd street'})
+
+name : veniero pasticceria
+addr : 342 e. 11th st.  near 1st ave.
+city : new york
+postal : 10003
+latlng : (40.7294893, -73.98452019999999)
+addr_variations : frozenset({'342 e 11 street near 1st avenue', '342 east 11th street near 1 avenue', '342 east 11 street near 1st avenue', '342 east 11 saint near 1 avenue', '342 east 11th saint near 1 avenue', '342 east 11 street near 1 avenue', '342 e 11 saint near 1st avenue', '342 e 11th street near 1st avenue', '342 east 11th street near 1st avenue', '342 e 11th saint near 1st avenue', '342 e 11th street near 1 avenue', '342 east 11 saint near 1st avenue', '342 e 11 saint near 1 avenue', '342 e 11 street near 1 avenue', '342 e 11th saint near 1 avenue', '342 east 11th saint near 1st avenue'})
+
+22/10 positive, 21/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+n
+name : szechuan hunan cottage
+addr : 1588 york ave.
+city : new york city
+postal : 10028
+latlng : (40.7743013, -73.94803689999999)
+addr_variations : frozenset({'1588 york avenue'})
+
+name : szechuan kitchen
+addr : 1460 first ave.
+city : new york city
+postal : 10021
+latlng : (40.7700976, -73.95371999999999)
+addr_variations : frozenset({'1460 1 avenue', '1460 1st avenue'})
+
+22/10 positive, 22/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+n
+name : jody maroni sausage kingdom
+addr : 2011 ocean front walk
+city : venice
+postal : 90291
+latlng : (33.9846332, -118.471432)
+addr_variations : frozenset({'2011 ocean front walk'})
+
+name : joe
+addr : 1023 abbot kinney blvd.
+city : venice
+postal : 90291
+latlng : (33.9922429, -118.4718658)
+addr_variations : frozenset({'1023 abbot kinney boulevard'})
+
+22/10 positive, 23/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+n
+name : auberge
+addr : 1191 1st ave.  between 64th and 65th sts.
+city : new york
+postal : 10065
+latlng : (40.763164, -73.959661)
+addr_variations : frozenset({'1191 1st avenue between 64th and 65 streets', '1191 1st avenue between 64 and 65 streets', '1191 1 avenue between 64 and 65th streets', '1191 1 avenue between 64 and 65 streets', '1191 1 avenue between 64th and 65 streets', '1191 1st avenue between 64th and 65th streets', '1191 1 avenue between 64th and 65th streets', '1191 1st avenue between 64 and 65th streets'})
+
+name : auberge du midi
+addr : 310 w. 4th st.  between w. 12th and bank sts.
+city : new york
+postal : 10014
+latlng : (40.7372617, -74.0039956)
+addr_variations : frozenset({'310 west 4 saint between west 12 and bank streets', '310 w 4 street between w 12 and bank streets', '310 west 4 saint between w 12th and bank streets', '310 w 4th saint between w 12th and bank streets', '310 west 4 street between west 12 and bank streets', '310 w 4th street between w 12 and bank streets', '310 w 4 street between w 12th and bank streets', '310 west 4th saint between west 12th and bank streets', '310 w 4 saint between west 12 and bank streets', '310 w 4th saint between w 12 and bank streets', '310 w 4th street between west 12 and bank streets', '310 w 4th saint between west 12th and bank streets', '310 west 4 street between w 12 and bank streets', '310 west 4th saint between w 12 and bank streets', '310 w 4 saint between west 12th and bank streets', '310 w 4 street between west 12th and bank streets', '310 west 4 saint between west 12th and bank streets', '310 west 4th street between w 12 and bank streets', '310 w 4th saint between west 12 and bank streets', '310 west 4th street between west 12 and bank streets', '310 w 4 saint between w 12 and bank streets', '310 w 4th street between west 12th and bank streets', '310 west 4 street between west 12th and bank streets', '310 west 4 saint between w 12 and bank streets', '310 west 4 street between w 12th and bank streets', '310 west 4th saint between w 12th and bank streets', '310 w 4 street between west 12 and bank streets', '310 w 4 saint between w 12th and bank streets', '310 west 4th street between west 12th and bank streets', '310 west 4th saint between west 12 and bank streets', '310 west 4th street between w 12th and bank streets', '310 w 4th street between w 12th and bank streets'})
+
+22/10 positive, 24/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished / (p)revious
+f
+Finished labeling
+INFO:rlr.crossvalidation:using cross validation to find optimum alpha...
+INFO:rlr.crossvalidation:optimum alpha: 1.000000, score 0.4295512458697395
+INFO:dedupe.training:Final predicate set:
+INFO:dedupe.training:(SimplePredicate: (firstTokenPredicate, name), TfidfNGramCanopyPredicate: (0.6, addr))
+INFO:dedupe.training:(SimplePredicate: (commonTwoTokens, name), SimplePredicate: (fingerprint, name))
