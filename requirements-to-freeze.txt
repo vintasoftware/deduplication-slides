@@ -10,6 +10,7 @@ geocoder
 jupyter
 matplotlib
 nameparser
+nbdime
 networkx
 numexpr
 numpy
@@ -19,5 +20,6 @@ postal
 probablepeople
 recordlinkage
 requests
+rise
 unidecode
 usaddress
