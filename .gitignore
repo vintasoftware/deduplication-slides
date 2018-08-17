@@ -106,3 +106,6 @@ venv.bak/
 # Sublime
 *.sublime-workspace
 *.sublime-project
+
+# Local-only files
+_personal/
