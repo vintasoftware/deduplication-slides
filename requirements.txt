@@ -41,7 +41,9 @@ jsonschema==2.6.0
 jupyter==1.0.0
 jupyter-client==5.2.3
 jupyter-console==5.2.0
+jupyter-contrib-core==0.3.3
 jupyter-core==4.4.0
+jupyter-nbextensions-configurator==0.4.0
 kiwisolver==1.0.1
 Levenshtein-search==1.4.4
 MarkupSafe==1.0
@@ -79,7 +81,7 @@ pytz==2018.5
 pyzmq==17.1.0
 qtconsole==4.3.1
 ratelim==0.1.6
-recordlinkage==0.11.2
+recordlinkage==0.12
 regex==2018.7.11
 requests==2.19.1
 rise==5.3.0
