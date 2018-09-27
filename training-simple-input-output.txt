@@ -1,389 +1,316 @@
-name : campanile
-addr : 624 s. la brea ave.
-city : los angeles
-postal : 90036
-latlng : (34.0641411, -118.3437014)
-
-name : chinois on main
-addr : 2709 main st.
-city : santa monica
-postal : 90405
-latlng : (34.0009389, -118.4820577)
-
-0/10 positive, 0/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
-n
-name : les halles
-addr : 411 park ave. s  between 28th and 29th sts.
-city : new york
-postal : 10016
-latlng : (40.7435515, -73.983508)
-
-name : sparks steak house
-addr : 210 e. 46th st.
-city : new york city
-postal : 10017
-latlng : (40.7529737, -73.9720665)
-
-0/10 positive, 1/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
-n
-name : locanda veneta
-addr : 3rd st.
-city : los angeles
-postal : None
-latlng : (34.0689584, -118.3209281)
-
-name : cava
-addr : 3rd st.
-city : los angeles
-postal : None
-latlng : (34.0689584, -118.3209281)
-
-0/10 positive, 2/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
-n
-name : locanda veneta
-addr : 3rd st.
-city : los angeles
-postal : None
-latlng : (34.0689584, -118.3209281)
-
-name : sofi
-addr : 3rd st.
-city : los angeles
-postal : None
-latlng : (34.0689584, -118.3209281)
-
-0/10 positive, 3/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
-n
-name : yujean kang s
-addr : 67 n. raymond ave.
-city : pasadena
-postal : 91103
-latlng : (34.147086, -118.1490988)
-
-name : san domenico
-addr : 240 central park s
-city : new york
-postal : 10019
-latlng : (40.767434, -73.9811782)
-
-0/10 positive, 4/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
-n
-name : sofi
-addr : 3rd st.
-city : los angeles
-postal : None
-latlng : (34.0689584, -118.3209281)
-
-name : sofia fabulous pizza
-addr : 1022 madison ave.  near 79th st.
-city : new york
-postal : 10075
-latlng : (40.7762729, -73.962389)
-
-0/10 positive, 5/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
-n
-name : masa s
-addr : 648 bush st.
-city : san francisco
-postal : 94108
-latlng : (37.7904165, -122.4080108)
-
-name : masa s
-addr : 648 bush st.
-city : san francisco
-postal : 94108
-latlng : (37.7904165, -122.4080108)
-
-0/10 positive, 6/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
-y
-name : tavern on the green
-addr : central park west
-city : new york city
-postal : None
-latlng : (40.7848582, -73.9696519)
-
-name : california pizza kitchen
-addr : 207 s. beverly dr.
-city : los angeles
-postal : 90212
-latlng : (34.0647384, -118.3993623)
-
-1/10 positive, 6/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
-n
-INFO:dedupe.training:Final predicate set:
-INFO:dedupe.training:(SimplePredicate: (wholeFieldPredicate, city), SimplePredicate: (wholeFieldPredicate, name))
-name : march
-addr : 405 e. 58th st.
-city : new york
-postal : 10022
-latlng : (40.7589131, -73.9618473)
-
-name : march
-addr : 405 e. 58th st.
-city : new york city
-postal : 10022
-latlng : (40.7589131, -73.9618473)
-
-1/10 positive, 7/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
-y
-name : fenix
-addr : 8358 sunset blvd.
-city : w. hollywood
-postal : 90069
-latlng : (34.0950968, -118.3719666)
-
-name : fenix at the argyle
-addr : 8358 sunset blvd.
-city : w. hollywood
-postal : 90069
-latlng : (34.0950968, -118.3719666)
-
-2/10 positive, 7/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
-y
 INFO:dedupe.training:Final predicate set:
 INFO:dedupe.training:(SimplePredicate: (twoGramFingerprint, addr), SimplePredicate: (wholeFieldPredicate, name))
-name : buckhead diner
-addr : 3073 piedmont road
-city : atlanta
-postal : 30305
-latlng : (33.8394056, -84.36870359999999)
-
-name : buckhead diner
-addr : 3073 piedmont rd.
-city : atlanta
-postal : 30305
-latlng : (33.8394056, -84.36870359999999)
-
-3/10 positive, 7/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
-y
-INFO:dedupe.training:Final predicate set:
-INFO:dedupe.training:(SimplePredicate: (twoGramFingerprint, addr), TfidfNGramCanopyPredicate: (0.2, name))
-name : ritz carlton cafe buckhead 
-addr : 3434 peachtree rd. ne
-city : atlanta
-postal : 30326
-latlng : (33.8508073, -84.364227)
-
-name : ritz carlton dining room buckhead 
-addr : 3434 peachtree rd. ne
-city : atlanta
-postal : 30326
-latlng : (33.8508073, -84.364227)
-
-4/10 positive, 7/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
-n
-INFO:dedupe.training:Final predicate set:
-INFO:dedupe.training:(LevenshteinCanopyPredicate: (2, addr), SimplePredicate: (sameFiveCharStartPredicate, name))
-name : second avenue deli
-addr : 156 2nd ave. at 10th st.
-city : new york
-postal : 10003
-latlng : (40.7296096, -73.9867012)
-
-name : second avenue deli
-addr : 156 second ave.
-city : new york city
-postal : 10003
-latlng : (40.7296096, -73.9867012)
-
-4/10 positive, 8/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
-y
-name : the palm
-addr : 9001 santa monica blvd.
-city : los angeles
-postal : 90069
-latlng : (34.083064, -118.387282)
-
-name : the palm los angeles
-addr : 9001 sta monica boulevard
-city : hollywood
-postal : 90069
-latlng : (34.083064, -118.387282)
-
-5/10 positive, 8/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
-y
-INFO:dedupe.training:Final predicate set:
-INFO:dedupe.training:(LevenshteinCanopyPredicate: (2, addr), SimplePredicate: (sameFiveCharStartPredicate, name))
-INFO:dedupe.training:(SimplePredicate: (commonThreeTokens, name), SimplePredicate: (commonTwoTokens, city))
-name : sarabeth s kitchen
-addr : 423 amsterdam ave.  between 80th and 81st sts.
-city : new york
-postal : 10024
-latlng : (40.7838797, -73.97742439999999)
-
-name : sarabeth s
-addr : 1295 madison ave.
-city : new york city
-postal : 10128
-latlng : (40.7847977, -73.9556597)
-
-6/10 positive, 8/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
-n
-INFO:dedupe.training:Final predicate set:
-INFO:dedupe.training:(SimplePredicate: (sameFiveCharStartPredicate, name), SimplePredicate: (sortedAcronym, addr))
-INFO:dedupe.training:(SimplePredicate: (commonThreeTokens, name), SimplePredicate: (commonTwoTokens, city))
-name : l auberge
-addr : 1191 1st ave.  between 64th and 65th sts.
-city : new york
-postal : 10065
-latlng : (40.763164, -73.959661)
-
-name : l auberge du midi
-addr : 310 w. 4th st.  between w. 12th and bank sts.
-city : new york
-postal : 10014
-latlng : (40.7372617, -74.0039956)
-
-6/10 positive, 9/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
-n
 name : fenix
-addr : 8358 sunset blvd.
-city : w. hollywood
-postal : 90069
-latlng : (34.0950968, -118.3719666)
-
-name : fenix at the argyle
 addr : 8358 sunset blvd. west
 city : hollywood
 postal : 90069
 latlng : (34.0950968, -118.3719666)
 
-6/10 positive, 10/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
-y
-name : gramercy tavern
-addr : 42 e. 20th st.  between park ave. s and broadway
-city : new york
-postal : 10003
-latlng : (40.7384555, -73.98850639999999)
+name : joss
+addr : 9255 sunset blvd.
+city : los angeles
+postal : 90069
+latlng : (34.09028380000001, -118.3939459)
 
-name : gramercy tavern
-addr : 42 e. 20th st.
-city : new york city
-postal : 10003
-latlng : (40.7384647, -73.9884665)
-
-7/10 positive, 10/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
-y
-INFO:dedupe.training:Final predicate set:
-INFO:dedupe.training:(SimplePredicate: (firstIntegerPredicate, addr), SimplePredicate: (sameFiveCharStartPredicate, name))
-name : plumpjack cafe
-addr : 3201 fillmore st.
-city : san francisco
-postal : 94123
-latlng : (37.79911990000001, -122.4360911)
-
-name : plumpjack cafe
-addr : 3127 fillmore st.
-city : san francisco
-postal : 94123
-latlng : (37.79834090000001, -122.4359412)
-
-8/10 positive, 10/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
-y
-name : les celebrites
-addr : 160 central park s
-city : new york
-postal : 10019
-latlng : (40.7660165, -73.97864109999999)
-
-name : les celebrites
-addr : 155 w. 58th st.
-city : new york city
-postal : 10019
-latlng : (40.7659005, -73.97841389999999)
-
-9/10 positive, 10/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
-y
-INFO:dedupe.training:Final predicate set:
-INFO:dedupe.training:(SimplePredicate: (sameFiveCharStartPredicate, name), SimplePredicate: (sameSevenCharStartPredicate, postal))
-name : jody maroni s sausage kingdom
-addr : 2011 ocean front walk
-city : venice
-postal : 90291
-latlng : (33.9846332, -118.471432)
-
-name : joe s
-addr : 1023 abbot kinney blvd.
-city : venice
-postal : 90291
-latlng : (33.9922429, -118.4718658)
-
-10/10 positive, 10/10 negative
+0/10 positive, 0/10 negative
 Do these records refer to the same thing?
 (y)es / (n)o / (u)nsure / (f)inished
 n
-name : ritz carlton restaurant
-addr : 181 peachtree st.
-city : atlanta
-postal : 30303
-latlng : (33.7585793, -84.3870657)
 
-name : ritz carlton cafe atlanta 
-addr : 181 peachtree st.
+name : ciboulette restaurant
+addr : 1529 piedmont ave.
 city : atlanta
-postal : 30303
-latlng : (33.7585793, -84.3870657)
+postal : 30324
+latlng : (33.7956505, -84.3688884)
 
-10/10 positive, 11/10 negative
+name : chopstix
+addr : 4279 roswell rd.
+city : atlanta
+postal : 30342
+latlng : (33.8712162, -84.3790928)
+
+0/10 positive, 1/10 negative
 Do these records refer to the same thing?
 (y)es / (n)o / (u)nsure / (f)inished
 n
-name : tavern on the green
-addr : in central park at 67th st.
+
+name : pen pencil
+addr : 205 e. 45th st.
 city : new york
-postal : 10023
-latlng : (40.7730403, -73.97829449999999)
+postal : 10017
+latlng : (40.7526398, -73.9724323)
 
-name : tavern on the green
-addr : central park west
+name : la salsa la 
+addr : 22800 pch
+city : malibu
+postal : 95437
+latlng : (39.4716107, -123.7990573)
+
+0/10 positive, 2/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished
+n
+
+name : rose of india
+addr : 308 e. sixth st.
 city : new york city
-postal : None
-latlng : (40.7848582, -73.9696519)
+postal : 10003
+latlng : (40.7269931, -73.98807790000001)
 
-10/10 positive, 12/10 negative
+name : tu lan
+addr : 8 sixth st.
+city : san francisco
+postal : 94103
+latlng : (37.7818759, -122.41013)
+
+0/10 positive, 3/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished
+n
+
+name : la reserve
+addr : 4 w. 49th st.
+city : new york
+postal : 10020
+latlng : (40.7580897, -73.97835189999999)
+
+name : la salsa la 
+addr : 22800 pch
+city : malibu
+postal : 95437
+latlng : (39.4716107, -123.7990573)
+
+0/10 positive, 4/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished
+n
+
+name : izzy s steak chop house
+addr : 3345 steiner st.
+city : san francisco
+postal : 94123
+latlng : (37.8002836, -122.4380759)
+
+name : lombardi s
+addr : 32 spring st.
+city : new york city
+postal : 10012
+latlng : (40.7216368, -73.99572049999999)
+
+0/10 positive, 5/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished
+n
+
+name : chanterelle
+addr : 2 harrison st.
+city : new york city
+postal : 10013
+latlng : (40.7188267, -74.00907509999999)
+
+name : tu lan
+addr : 8 sixth st.
+city : san francisco
+postal : 94103
+latlng : (37.7818759, -122.41013)
+
+0/10 positive, 6/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished
+n
+
+name : pinot bistro
+addr : 12969 ventura blvd.
+city : los angeles
+postal : 91604
+latlng : (34.14571950000001, -118.4160795)
+
+name : pinot bistro
+addr : 12969 ventura blvd.
+city : studio city
+postal : 91604
+latlng : (34.14571950000001, -118.4160795)
+
+0/10 positive, 7/10 negative
 Do these records refer to the same thing?
 (y)es / (n)o / (u)nsure / (f)inished
 y
+
+name : brasserie le coze
+addr : 3393 peachtree rd.
+city : atlanta
+postal : 30326
+latlng : (33.8468686, -84.36251209999999)
+
+name : tomtom
+addr : 3393 peachtree rd.
+city : atlanta
+postal : 30326
+latlng : (33.8468686, -84.36251209999999)
+
+1/10 positive, 7/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished
+n
+
+name : harry denton s
+addr : 161 steuart st.
+city : san francisco
+postal : 94105
+latlng : (37.7926439, -122.3922179)
+
+name : wu kong
+addr : 101 spear st.
+city : san francisco
+postal : 94105
+latlng : (37.792549, -122.3930995)
+
+1/10 positive, 8/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished
+n
+
+name : rainbow room
+addr : 30 rockefeller plaza
+city : new york
+postal : 10111
+latlng : (40.7593755, -73.9799726)
+
+name : rainbow room
+addr : 30 rockefeller plaza
+city : new york city
+postal : 10111
+latlng : (40.7593755, -73.9799726)
+
+1/10 positive, 9/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished
+y
+
+name : 21 club
+addr : 21 w. 52nd st.
+city : new york
+postal : 10019
+latlng : (40.760533, -73.97739700000001)
+
+name : 21 club
+addr : 21 w. 52nd st.
+city : new york city
+postal : 10019
+latlng : (40.760533, -73.97739700000001)
+
+2/10 positive, 9/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished
+y
+
+name : sign of the dove
+addr : 1110 3rd ave. at 65th st.
+city : new york
+postal : 10065
+latlng : (40.7656399, -73.9639684)
+
+name : sign of the dove
+addr : 1110 third ave.
+city : new york city
+postal : 10065
+latlng : (40.7656399, -73.9639684)
+
+3/10 positive, 9/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished
+y
+
+name : tillerman
+addr : 2245 e. flamingo rd.
+city : las vegas
+postal : 89119
+latlng : (36.114384, -115.1218936)
+
+name : tillerman the
+addr : 2245 e. flamingo rd.
+city : las vegas
+postal : 89119
+latlng : (36.114384, -115.1218936)
+
+4/10 positive, 9/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished
+y
+
+INFO:dedupe.training:Final predicate set:
+INFO:dedupe.training:(SimplePredicate: (wholeFieldPredicate, name), TfidfNGramCanopyPredicate: (0.2, addr))
+name : bertolini s
+addr : 3570 las vegas blvd. s
+city : las vegas
+postal : 89109
+latlng : (36.1161559, -115.1750576)
+
+name : empress court
+addr : 3570 las vegas blvd. s
+city : las vegas
+postal : 89109
+latlng : (36.1161559, -115.1750576)
+
+5/10 positive, 9/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished
+n
+
+INFO:dedupe.training:Final predicate set:
+INFO:dedupe.training:(LevenshteinCanopyPredicate: (4, name), SimplePredicate: (twoGramFingerprint, addr))
+INFO:dedupe.training:(SimplePredicate: (commonThreeTokens, name), SimplePredicate: (commonTwoTokens, city))
+name : chin s
+addr : 3200 las vegas blvd. s.
+city : las vegas
+postal : 89109
+latlng : (36.1275236, -115.1715003)
+
+name : morton s of chicago las vegas 
+addr : 3200 las vegas blvd. s.
+city : las vegas
+postal : 89109
+latlng : (36.1275236, -115.1715003)
+
+5/10 positive, 10/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished
+n
+
+name : la caravelle
+addr : 33 w. 55th st.
+city : new york city
+postal : 10019
+latlng : (40.7625104, -73.9763684)
+
+name : la cote basque
+addr : 60 w. 55th st.  between 5th and 6th ave.
+city : new york
+postal : 10019
+latlng : (40.762523, -73.977277)
+
+5/10 positive, 11/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished
+n
+
+name : cafe ritz carlton buckhead
+addr : 3434 peachtree rd.
+city : atlanta
+postal : 30326
+latlng : (33.8508073, -84.364227)
+
+name : dining room ritz carlton buckhead
+addr : 3434 peachtree rd.
+city : atlanta
+postal : 30326
+latlng : (33.8508073, -84.364227)
+
+5/10 positive, 12/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished
+n
+
 name : smith wollensky
 addr : 201 e. 49th st.
 city : new york
@@ -396,152 +323,245 @@ city : new york city
 postal : 10022
 latlng : (40.7551704, -73.9707437)
 
-11/10 positive, 12/10 negative
+5/10 positive, 13/10 negative
 Do these records refer to the same thing?
 (y)es / (n)o / (u)nsure / (f)inished
 y
-INFO:dedupe.training:Final predicate set:
-INFO:dedupe.training:(SimplePredicate: (sameFiveCharStartPredicate, name), SimplePredicate: (sameSevenCharStartPredicate, postal))
-INFO:dedupe.training:(SimplePredicate: (commonThreeTokens, name), SimplePredicate: (commonTwoTokens, city))
-name : palm
-addr : 837 second ave.
-city : new york city
-postal : 10017
-latlng : (40.7517011, -73.97117990000001)
 
-name : palm too
-addr : 840 second ave.
-city : new york city
-postal : 10017
-latlng : (40.7514669, -73.9706863)
-
-12/10 positive, 12/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
-n
-INFO:dedupe.training:Final predicate set:
-INFO:dedupe.training:(SimplePredicate: (latLongGridPredicate, latlng), SimplePredicate: (sameFiveCharStartPredicate, name))
-INFO:dedupe.training:Final predicate set:
-INFO:dedupe.training:(SimplePredicate: (commonTwoTokens, city), SimplePredicate: (wholeFieldPredicate, name))
-INFO:dedupe.training:(SimplePredicate: (sameFiveCharStartPredicate, addr), TfidfNGramCanopyPredicate: (0.2, name))
-name : locanda veneta
-addr : 3rd st.
+name : pinot bistro
+addr : 12969 ventura blvd.
 city : los angeles
-postal : None
-latlng : (34.0689584, -118.3209281)
+postal : 91604
+latlng : (34.14571950000001, -118.4160795)
 
-name : locanda veneta
-addr : 8638 w. third st.
-city : los angeles
-postal : 90048
-latlng : (34.0734172, -118.3810964)
+name : pinot bistro
+addr : 12969 ventura boulevard
+city : studio city
+postal : 91604
+latlng : (34.14571950000001, -118.4160795)
 
-12/10 positive, 13/10 negative
+6/10 positive, 13/10 negative
 Do these records refer to the same thing?
 (y)es / (n)o / (u)nsure / (f)inished
 y
-name : caffe dante
-addr : 81 macdougal st.  between houston and bleeker sts.
-city : new york
-postal : 10012
-latlng : (40.728878, -74.001662)
 
-name : caffe reggio
-addr : 119 macdougal st.  between 3rd and bleecker sts.
-city : new york
-postal : 10012
-latlng : (40.73030790000001, -74.0003706)
+INFO:dedupe.training:Final predicate set:
+INFO:dedupe.training:(LevenshteinCanopyPredicate: (4, name), SimplePredicate: (sameSevenCharStartPredicate, name))
+name : bertolini s
+addr : 3500 peachtree rd.  phipps plaza
+city : atlanta
+postal : 30326
+latlng : (33.852544, -84.361986)
 
-13/10 positive, 13/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
-n
-name : chin s
-addr : 3200 las vegas blvd. s
+name : bertolini s
+addr : 3570 las vegas blvd. s
 city : las vegas
 postal : 89109
-latlng : (36.1275236, -115.1715003)
+latlng : (36.1161559, -115.1750576)
 
-name : morton s of chicago las vegas 
-addr : 3200 las vegas blvd. s.
-city : las vegas
-postal : 89109
-latlng : (36.1275236, -115.1715003)
-
-13/10 positive, 14/10 negative
+7/10 positive, 13/10 negative
 Do these records refer to the same thing?
 (y)es / (n)o / (u)nsure / (f)inished
 n
-name : cafe bizou
-addr : 14016 ventura blvd.
-city : sherman oaks
-postal : 91423
-latlng : (34.1488992, -118.4379187)
 
-name : cava
-addr : 3rd st.
-city : los angeles
-postal : None
-latlng : (34.0689584, -118.3209281)
+name : restaurant ritz carlton atlanta
+addr : 181 peachtree st.
+city : atlanta
+postal : 30303
+latlng : (33.7585793, -84.3870657)
 
-13/10 positive, 15/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
-n
-name : philippe s the original
-addr : 1001 n. alameda st.
-city : los angeles
-postal : 90012
-latlng : (34.059721, -118.237025)
+name : ritz carlton restaurant
+addr : 181 peachtree st.
+city : atlanta
+postal : 30303
+latlng : (33.7585793, -84.3870657)
 
-name : philippe the original
-addr : 1001 n. alameda st.
-city : chinatown
-postal : 90012
-latlng : (34.059721, -118.237025)
-
-13/10 positive, 16/10 negative
+7/10 positive, 14/10 negative
 Do these records refer to the same thing?
 (y)es / (n)o / (u)nsure / (f)inished
 y
+
+name : fenix
+addr : 8358 sunset blvd. west
+city : hollywood
+postal : 90069
+latlng : (34.0950968, -118.3719666)
+
+name : fenix at the argyle
+addr : 8358 sunset blvd. west
+city : hollywood
+postal : 90069
+latlng : (34.0950968, -118.3719666)
+
+8/10 positive, 14/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished
+y
+
+INFO:dedupe.training:Final predicate set:
+INFO:dedupe.training:(SimplePredicate: (latLongGridPredicate, latlng), TfidfNGramCanopyPredicate: (0.6, name))
+name : ciboulette restaurant
+addr : 1529 piedmont ave.
+city : atlanta
+postal : 30324
+latlng : (33.7956505, -84.3688884)
+
+name : colonnade restaurant
+addr : 1879 cheshire bridge rd.
+city : atlanta
+postal : 30324
+latlng : (33.8092277, -84.3609824)
+
+9/10 positive, 14/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished
+n
+
+INFO:dedupe.training:Final predicate set:
+INFO:dedupe.training:(SimplePredicate: (twoGramFingerprint, addr), TfidfNGramCanopyPredicate: (0.2, name))
+INFO:dedupe.training:(SimplePredicate: (hundredIntegerPredicate, postal), SimplePredicate: (wholeFieldPredicate, name))
+INFO:dedupe.training:Final predicate set:
+INFO:dedupe.training:(SimplePredicate: (latLongGridPredicate, latlng), SimplePredicate: (oneGramFingerprint, name))
+INFO:dedupe.training:(SimplePredicate: (twoGramFingerprint, addr), TfidfNGramCanopyPredicate: (0.2, name))
+name : steak house
+addr : 2880 las vegas blvd. s
+city : las vegas
+postal : 89109
+latlng : (36.13764159999999, -115.1653861)
+
+name : steak house the
+addr : 2880 las vegas blvd. s.
+city : las vegas
+postal : 89109
+latlng : (36.13764159999999, -115.1653861)
+
+9/10 positive, 15/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished
+y
+
+name : hedgerose heights inn
+addr : 490 e. paces ferry rd.
+city : atlanta
+postal : 30305
+latlng : (33.8387692, -84.37190679999999)
+
+name : hedgerose heights inn the
+addr : 490 e. paces ferry rd. ne
+city : atlanta
+postal : 30305
+latlng : (33.8387692, -84.37190679999999)
+
+10/10 positive, 15/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished
+y
+
+name : four seasons grill room
+addr : 99 e. 52nd st.
+city : new york
+postal : 10022
+latlng : (40.7583177, -73.9718681)
+
+name : four seasons
+addr : 99 e. 52nd st.
+city : new york city
+postal : 10022
+latlng : (40.7583177, -73.9718681)
+
+11/10 positive, 15/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished
+y
+
+name : broadway deli
+addr : 3rd st. promenade
+city : santa monica
+postal : 90401
+latlng : (34.0161023, -118.4965398)
+
+name : remi
+addr : 3rd st. promenade
+city : santa monica
+postal : 90401
+latlng : (34.0161023, -118.4965398)
+
+12/10 positive, 15/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished
+n
+
+INFO:dedupe.training:Final predicate set:
+INFO:dedupe.training:(SimplePredicate: (latLongGridPredicate, latlng), SimplePredicate: (oneGramFingerprint, name))
+INFO:dedupe.training:(SimplePredicate: (sameFiveCharStartPredicate, name), SimplePredicate: (twoGramFingerprint, addr))
+name : teresa s
+addr : 103 1st ave.  between 6th and 7th sts.
+city : new york
+postal : 10003
+latlng : (40.7267012, -73.9862398)
+
+name : teresa s
+addr : 80 montague st.
+city : queens
+postal : 11201
+latlng : (40.6951748, -73.9962484)
+
+12/10 positive, 16/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished
+n
+
+name : bally s big kitchen
+addr : 3645 las vegas blvd. s
+city : las vegas
+postal : 89109
+latlng : (36.1142224, -115.1708505)
+
+name : sterling brunch
+addr : 3645 las vegas blvd. s.
+city : las vegas
+postal : 89109
+latlng : (36.1142224, -115.1708505)
+
+12/10 positive, 17/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished
+n
+
+name : restaurant ritz carlton atlanta
+addr : 181 peachtree st.
+city : atlanta
+postal : 30303
+latlng : (33.7585793, -84.3870657)
+
+name : ritz carlton cafe atlanta 
+addr : 181 peachtree st.
+city : atlanta
+postal : 30303
+latlng : (33.7585793, -84.3870657)
+
+12/10 positive, 18/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished
+n
+
 name : the palm
 addr : 9001 santa monica blvd.
 city : los angeles
 postal : 90069
 latlng : (34.083064, -118.387282)
 
-name : palm the los angeles 
-addr : 9001 santa monica blvd.
-city : w. hollywood
+name : the palm los angeles
+addr : 9001 sta monica boulevard
+city : hollywood
 postal : 90069
 latlng : (34.083064, -118.387282)
 
-14/10 positive, 16/10 negative
+12/10 positive, 19/10 negative
 Do these records refer to the same thing?
 (y)es / (n)o / (u)nsure / (f)inished
 y
-INFO:dedupe.training:Final predicate set:
-INFO:dedupe.training:(SimplePredicate: (commonTwoTokens, city), SimplePredicate: (wholeFieldPredicate, name))
-INFO:dedupe.training:(SimplePredicate: (sameFiveCharStartPredicate, addr), SimplePredicate: (sameFiveCharStartPredicate, name))
-name : l orangerie
-addr : 903 n. la cienega blvd.
-city : los angeles
-postal : 90069
-latlng : (34.0870981, -118.376626)
 
-name : l orangerie
-addr : 903 n. la cienega blvd.
-city : w. hollywood
-postal : 90028
-latlng : (34.1008332, -118.3256128)
-
-15/10 positive, 16/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
-y
-INFO:dedupe.training:Final predicate set:
-INFO:dedupe.training:(SimplePredicate: (commonTwoTokens, city), SimplePredicate: (wholeFieldPredicate, name))
-INFO:dedupe.training:(SimplePredicate: (sameFiveCharStartPredicate, addr), TfidfNGramCanopyPredicate: (0.4, name))
 name : le montrachet
 addr : 3000 w. paradise rd.
 city : las vegas
@@ -554,170 +574,90 @@ city : las vegas
 postal : 89109
 latlng : (36.1362611, -115.1512539)
 
-16/10 positive, 16/10 negative
+13/10 positive, 19/10 negative
 Do these records refer to the same thing?
 (y)es / (n)o / (u)nsure / (f)inished
 y
-name : bone s
-addr : 3130 piedmont road
-city : atlanta
-postal : 30305
-latlng : (33.8421033, -84.3711029)
 
-name : bone s restaurant
-addr : 3130 piedmont rd. ne
-city : atlanta
-postal : 30305
-latlng : (33.8421033, -84.3711029)
-
-17/10 positive, 16/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
-y
 INFO:dedupe.training:Final predicate set:
-INFO:dedupe.training:(SimplePredicate: (commonTwoTokens, city), SimplePredicate: (sameSevenCharStartPredicate, name))
-INFO:dedupe.training:(SimplePredicate: (sameFiveCharStartPredicate, addr), TfidfNGramCanopyPredicate: (0.4, name))
-name : szechuan hunan cottage
-addr : 1588 york ave.
-city : new york city
-postal : 10028
-latlng : (40.7743013, -73.94803689999999)
+INFO:dedupe.training:(SimplePredicate: (sameFiveCharStartPredicate, name), SimplePredicate: (sortedAcronym, addr))
+INFO:dedupe.training:(SimplePredicate: (oneGramFingerprint, name), SimplePredicate: (sameSevenCharStartPredicate, city))
+name : palace court
+addr : 3570 las vegas blvd. s
+city : las vegas
+postal : 89109
+latlng : (36.1161559, -115.1750576)
 
-name : szechuan kitchen
-addr : 1460 first ave.
-city : new york city
-postal : 10021
-latlng : (40.7700976, -73.95371999999999)
+name : empress court
+addr : 3570 las vegas blvd. s
+city : las vegas
+postal : 89109
+latlng : (36.1161559, -115.1750576)
 
-18/10 positive, 16/10 negative
+14/10 positive, 19/10 negative
 Do these records refer to the same thing?
 (y)es / (n)o / (u)nsure / (f)inished
 n
+
 INFO:dedupe.training:Final predicate set:
-INFO:dedupe.training:(SimplePredicate: (firstIntegerPredicate, addr), TfidfNGramCanopyPredicate: (0.4, addr))
-INFO:dedupe.training:(SimplePredicate: (commonTwoTokens, city), SimplePredicate: (wholeFieldPredicate, name))
-name : coyote cafe las vegas 
-addr : 3799 las vegas blvd. s.
-city : las vegas
-postal : 89109
-latlng : (36.1022507, -115.1699679)
+INFO:dedupe.training:(SimplePredicate: (latLongGridPredicate, latlng), SimplePredicate: (sameSevenCharStartPredicate, name))
+INFO:dedupe.training:(SimplePredicate: (twoGramFingerprint, addr), TfidfNGramCanopyPredicate: (0.2, name))
+name : cafe ritz carlton buckhead
+addr : 3434 peachtree rd.
+city : atlanta
+postal : 30326
+latlng : (33.8508073, -84.364227)
 
-name : tre visi
-addr : 3799 las vegas blvd. s.
-city : las vegas
-postal : 89109
-latlng : (36.1022507, -115.1699679)
+name : ritz carlton dining room buckhead 
+addr : 3434 peachtree rd. ne
+city : atlanta
+postal : 30326
+latlng : (33.8508073, -84.364227)
 
-18/10 positive, 17/10 negative
+14/10 positive, 20/10 negative
 Do these records refer to the same thing?
 (y)es / (n)o / (u)nsure / (f)inished
 n
-name : nikolai s roof
-addr : 255 courtland st.  at harris st.
-city : atlanta
-postal : 30303
-latlng : (33.761546, -84.383562)
 
-name : nikolai s roof
-addr : 255 courtland st.
-city : atlanta
-postal : 30303
-latlng : (33.761546, -84.383562)
+name : gotham bar and grill
+addr : 12 e 12th st
+city : new york city
+postal : 10003
+latlng : (40.734207, -73.99369899999999)
 
-18/10 positive, 18/10 negative
+name : gotham
+addr : 12 e 12th st
+city : new york
+postal : 10003
+latlng : (40.734207, -73.99369899999999)
+
+14/10 positive, 21/10 negative
 Do these records refer to the same thing?
 (y)es / (n)o / (u)nsure / (f)inished
 y
-name : coyote cafe
-addr : 3799 las vegas blvd. s
-city : las vegas
-postal : 89109
-latlng : (36.1022507, -115.1699679)
 
-name : tre visi
-addr : 3799 las vegas blvd. s.
-city : las vegas
-postal : 89109
-latlng : (36.1022507, -115.1699679)
+name : ritz carlton cafe buckhead 
+addr : 3434 peachtree rd. ne
+city : atlanta
+postal : 30326
+latlng : (33.8508073, -84.364227)
 
-19/10 positive, 18/10 negative
+name : dining room ritz carlton buckhead
+addr : 3434 peachtree rd.
+city : atlanta
+postal : 30326
+latlng : (33.8508073, -84.364227)
+
+15/10 positive, 21/10 negative
 Do these records refer to the same thing?
 (y)es / (n)o / (u)nsure / (f)inished
 n
+
+INFO:dedupe.training:Final predicate set:
+INFO:dedupe.training:(SimplePredicate: (latLongGridPredicate, latlng), SimplePredicate: (sameSevenCharStartPredicate, name))
+INFO:dedupe.training:(SimplePredicate: (twoGramFingerprint, addr), TfidfNGramCanopyPredicate: (0.4, name))
+INFO:rlr.crossvalidation:using cross validation to find optimum alpha...
+INFO:rlr.crossvalidation:optimum alpha: 0.010000, score 0.8875060574065454
 INFO:dedupe.training:Final predicate set:
 INFO:dedupe.training:(SimplePredicate: (firstIntegerPredicate, addr), SimplePredicate: (sameFiveCharStartPredicate, name))
-INFO:dedupe.training:(SimplePredicate: (commonTwoTokens, city), SimplePredicate: (wholeFieldPredicate, name))
-INFO:dedupe.training:(SimplePredicate: (twoGramFingerprint, addr), TfidfNGramCanopyPredicate: (0.2, name))
-name : spago
-addr : 1114 horn ave.
-city : los angeles
-postal : 90069
-latlng : (34.0911717, -118.3831611)
-
-name : spago los angeles 
-addr : 8795 sunset blvd.
-city : w. hollywood
-postal : 90069
-latlng : (34.0911315, -118.3832896)
-
-19/10 positive, 19/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
-y
-name : pano s and paul s
-addr : 1232 w. paces ferry rd.
-city : atlanta
-postal : 30327
-latlng : (33.8492913, -84.42808939999999)
-
-name : pano s paul s
-addr : 1232 w. paces ferry rd.
-city : atlanta
-postal : 30327
-latlng : (33.8492913, -84.42808939999999)
-
-20/10 positive, 19/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
-y
-INFO:dedupe.training:Final predicate set:
-INFO:dedupe.training:(SimplePredicate: (sameFiveCharStartPredicate, name), SimplePredicate: (sameSevenCharStartPredicate, postal))
-INFO:dedupe.training:(SimplePredicate: (commonTwoTokens, city), SimplePredicate: (wholeFieldPredicate, name))
-INFO:dedupe.training:(SimplePredicate: (twoGramFingerprint, addr), TfidfNGramCanopyPredicate: (0.2, name))
-INFO:rlr.crossvalidation:using cross validation to find optimum alpha...
-name : chin s
-addr : 3200 las vegas blvd. s.
-city : las vegas
-postal : 89109
-latlng : (36.1275236, -115.1715003)
-
-name : morton s of chicago las vegas 
-addr : 3200 las vegas blvd. s.
-city : las vegas
-postal : 89109
-latlng : (36.1275236, -115.1715003)
-
-21/10 positive, 19/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
-n
-name : spago los angeles 
-addr : 8795 sunset blvd.
-city : w. hollywood
-postal : 90069
-latlng : (34.0911315, -118.3832896)
-
-name : joss
-addr : 9255 sunset blvd.
-city : los angeles
-postal : 90069
-latlng : (34.09028380000001, -118.3939459)
-
-21/10 positive, 20/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
-n
-INFO:rlr.crossvalidation:optimum alpha: 1.000000, score 0.7035036299085243
-INFO:dedupe.training:Final predicate set:
-INFO:dedupe.training:(SimplePredicate: (sameFiveCharStartPredicate, name), SimplePredicate: (sameSevenCharStartPredicate, postal))
-INFO:dedupe.training:(SimplePredicate: (sameSevenCharStartPredicate, name), SimplePredicate: (wholeFieldPredicate, name))
+INFO:dedupe.training:(SimplePredicate: (oneGramFingerprint, name), SimplePredicate: (sameSevenCharStartPredicate, city))
