@@ -4,67 +4,63 @@
       "__class__": "tuple",
       "__value__": [
         {
-          "name": "fenix",
-          "addr": "8358 sunset blvd. west",
-          "city": "hollywood",
-          "type": "american",
-          "postal": "90069",
-          "cluster": 7,
+          "name": "ernie s",
+          "addr": "2150 broadway  between 75th and 76th sts.",
+          "city": "new york",
+          "postal": "10023",
+          "cluster": 234,
           "latlng": {
             "__class__": "tuple",
             "__value__": [
-              34.0950968,
-              -118.3719666
+              40.7814599,
+              -73.9806864
             ]
           }
         },
         {
-          "name": "joss",
-          "addr": "9255 sunset blvd.",
+          "name": "mad fish",
+          "addr": "2182 broadway  between 77th and 78th sts.",
+          "city": "new york",
+          "postal": "10024",
+          "cluster": 297,
+          "latlng": {
+            "__class__": "tuple",
+            "__value__": [
+              40.7825006,
+              -73.980446
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "__class__": "tuple",
+      "__value__": [
+        {
+          "name": "cava",
+          "addr": "3rd st.",
           "city": "los angeles",
-          "type": "asian",
-          "postal": "90069",
-          "cluster": 143,
+          "postal": null,
+          "cluster": 123,
           "latlng": {
             "__class__": "tuple",
             "__value__": [
-              34.09028380000001,
-              -118.3939459
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "__class__": "tuple",
-      "__value__": [
-        {
-          "name": "ciboulette restaurant",
-          "addr": "1529 piedmont ave.",
-          "city": "atlanta",
-          "type": "french (new)",
-          "postal": "30324",
-          "cluster": 79,
-          "latlng": {
-            "__class__": "tuple",
-            "__value__": [
-              33.7956505,
-              -84.3688884
+              33.4947903,
+              -112.069374
             ]
           }
         },
         {
-          "name": "chopstix",
-          "addr": "4279 roswell rd.",
-          "city": "atlanta",
-          "type": "chinese",
-          "postal": "30342",
-          "cluster": 688,
+          "name": "tommy s",
+          "addr": "2575 beverly blvd.",
+          "city": "la",
+          "postal": "90057",
+          "cluster": 598,
           "latlng": {
             "__class__": "tuple",
             "__value__": [
-              33.8712162,
-              -84.3790928
+              34.0694981,
+              -118.2762101
             ]
           }
         }
@@ -74,277 +70,30 @@
       "__class__": "tuple",
       "__value__": [
         {
-          "name": "pen pencil",
-          "addr": "205 e. 45th st.",
-          "city": "new york",
-          "type": "american",
-          "postal": "10017",
-          "cluster": 325,
-          "latlng": {
-            "__class__": "tuple",
-            "__value__": [
-              40.7526398,
-              -73.9724323
-            ]
-          }
-        },
-        {
-          "name": "la salsa la ",
-          "addr": "22800 pch",
-          "city": "malibu",
-          "type": "mexican",
-          "postal": "95437",
-          "cluster": 569,
-          "latlng": {
-            "__class__": "tuple",
-            "__value__": [
-              39.4716107,
-              -123.7990573
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "__class__": "tuple",
-      "__value__": [
-        {
-          "name": "rose of india",
-          "addr": "308 e. sixth st.",
-          "city": "new york city",
-          "type": "indian",
-          "postal": "10003",
-          "cluster": 638,
-          "latlng": {
-            "__class__": "tuple",
-            "__value__": [
-              40.7269931,
-              -73.98807790000001
-            ]
-          }
-        },
-        {
-          "name": "tu lan",
-          "addr": "8 sixth st.",
-          "city": "san francisco",
-          "type": "vietnamese",
-          "postal": "94103",
-          "cluster": 750,
-          "latlng": {
-            "__class__": "tuple",
-            "__value__": [
-              37.7818759,
-              -122.41013
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "__class__": "tuple",
-      "__value__": [
-        {
-          "name": "la reserve",
-          "addr": "4 w. 49th st.",
-          "city": "new york",
-          "type": "french",
-          "postal": "10020",
-          "cluster": 281,
-          "latlng": {
-            "__class__": "tuple",
-            "__value__": [
-              40.7580897,
-              -73.97835189999999
-            ]
-          }
-        },
-        {
-          "name": "la salsa la ",
-          "addr": "22800 pch",
-          "city": "malibu",
-          "type": "mexican",
-          "postal": "95437",
-          "cluster": 569,
-          "latlng": {
-            "__class__": "tuple",
-            "__value__": [
-              39.4716107,
-              -123.7990573
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "__class__": "tuple",
-      "__value__": [
-        {
-          "name": "izzy s steak chop house",
-          "addr": "3345 steiner st.",
-          "city": "san francisco",
-          "type": "steak houses",
-          "postal": "94123",
-          "cluster": 484,
-          "latlng": {
-            "__class__": "tuple",
-            "__value__": [
-              37.8002836,
-              -122.4380759
-            ]
-          }
-        },
-        {
-          "name": "lombardi s",
-          "addr": "32 spring st.",
-          "city": "new york city",
-          "type": "pizza",
-          "postal": "10012",
-          "cluster": 625,
-          "latlng": {
-            "__class__": "tuple",
-            "__value__": [
-              40.7216368,
-              -73.99572049999999
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "__class__": "tuple",
-      "__value__": [
-        {
-          "name": "chanterelle",
-          "addr": "2 harrison st.",
-          "city": "new york city",
-          "type": "french (new)",
-          "postal": "10013",
-          "cluster": 30,
-          "latlng": {
-            "__class__": "tuple",
-            "__value__": [
-              40.7188267,
-              -74.00907509999999
-            ]
-          }
-        },
-        {
-          "name": "tu lan",
-          "addr": "8 sixth st.",
-          "city": "san francisco",
-          "type": "vietnamese",
-          "postal": "94103",
-          "cluster": 750,
-          "latlng": {
-            "__class__": "tuple",
-            "__value__": [
-              37.7818759,
-              -122.41013
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "__class__": "tuple",
-      "__value__": [
-        {
-          "name": "brasserie le coze",
-          "addr": "3393 peachtree rd.",
-          "city": "atlanta",
-          "type": "french bistro",
-          "postal": "30326",
-          "cluster": 77,
-          "latlng": {
-            "__class__": "tuple",
-            "__value__": [
-              33.8468686,
-              -84.36251209999999
-            ]
-          }
-        },
-        {
-          "name": "tomtom",
-          "addr": "3393 peachtree rd.",
-          "city": "atlanta",
-          "type": "continental",
-          "postal": "30326",
-          "cluster": 422,
-          "latlng": {
-            "__class__": "tuple",
-            "__value__": [
-              33.8468686,
-              -84.36251209999999
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "__class__": "tuple",
-      "__value__": [
-        {
-          "name": "harry denton s",
-          "addr": "161 steuart st.",
-          "city": "san francisco",
-          "type": "american",
-          "postal": "94105",
-          "cluster": 477,
-          "latlng": {
-            "__class__": "tuple",
-            "__value__": [
-              37.7926439,
-              -122.3922179
-            ]
-          }
-        },
-        {
-          "name": "wu kong",
-          "addr": "101 spear st.",
-          "city": "san francisco",
-          "type": "asian",
-          "postal": "94105",
-          "cluster": 527,
-          "latlng": {
-            "__class__": "tuple",
-            "__value__": [
-              37.792549,
-              -122.3930995
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "__class__": "tuple",
-      "__value__": [
-        {
-          "name": "bertolini s",
-          "addr": "3570 las vegas blvd. s",
+          "name": "emeril s new orleans fish house",
+          "addr": "3799 las vegas blvd. s.",
           "city": "las vegas",
-          "type": "italian",
           "postal": "89109",
-          "cluster": 427,
+          "cluster": 659,
           "latlng": {
             "__class__": "tuple",
             "__value__": [
-              36.1161559,
-              -115.1750576
+              36.1022507,
+              -115.1699679
             ]
           }
         },
         {
-          "name": "empress court",
-          "addr": "3570 las vegas blvd. s",
+          "name": "tre visi",
+          "addr": "3799 las vegas blvd. s.",
           "city": "las vegas",
-          "type": "asian",
           "postal": "89109",
-          "cluster": 438,
+          "cluster": 674,
           "latlng": {
             "__class__": "tuple",
             "__value__": [
-              36.1161559,
-              -115.1750576
+              36.1022507,
+              -115.1699679
             ]
           }
         }
@@ -354,32 +103,30 @@
       "__class__": "tuple",
       "__value__": [
         {
-          "name": "chin s",
-          "addr": "3200 las vegas blvd. s.",
+          "name": "coyote cafe las vegas ",
+          "addr": "3799 las vegas blvd. s.",
           "city": "las vegas",
-          "type": "chinese",
           "postal": "89109",
-          "cluster": 67,
+          "cluster": 68,
           "latlng": {
             "__class__": "tuple",
             "__value__": [
-              36.1275236,
-              -115.1715003
+              36.1022507,
+              -115.1699679
             ]
           }
         },
         {
-          "name": "morton s of chicago las vegas ",
-          "addr": "3200 las vegas blvd. s.",
+          "name": "tre visi",
+          "addr": "3799 las vegas blvd. s.",
           "city": "las vegas",
-          "type": "steakhouses",
           "postal": "89109",
-          "cluster": 667,
+          "cluster": 674,
           "latlng": {
             "__class__": "tuple",
             "__value__": [
-              36.1275236,
-              -115.1715003
+              36.1022507,
+              -115.1699679
             ]
           }
         }
@@ -389,45 +136,75 @@
       "__class__": "tuple",
       "__value__": [
         {
-          "name": "la caravelle",
-          "addr": "33 w. 55th st.",
-          "city": "new york city",
-          "type": "french (classic)",
-          "postal": "10019",
-          "cluster": 39,
-          "latlng": {
-            "__class__": "tuple",
-            "__value__": [
-              40.7625104,
-              -73.9763684
-            ]
-          }
-        },
-        {
-          "name": "la cote basque",
-          "addr": "60 w. 55th st.  between 5th and 6th ave.",
-          "city": "new york",
-          "type": "french",
-          "postal": "10019",
-          "cluster": 40,
-          "latlng": {
-            "__class__": "tuple",
-            "__value__": [
-              40.762523,
-              -73.977277
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "__class__": "tuple",
-      "__value__": [
-        {
-          "name": "cafe ritz carlton buckhead",
-          "addr": "3434 peachtree rd.",
+          "name": "restaurant ritz carlton atlanta",
+          "addr": "181 peachtree st.",
           "city": "atlanta",
-          "type": "ext 6108 international",
+          "postal": "30303",
+          "cluster": 91,
+          "latlng": {
+            "__class__": "tuple",
+            "__value__": [
+              33.7585793,
+              -84.3870657
+            ]
+          }
+        },
+        {
+          "name": "hsu s gourmet",
+          "addr": "192 peachtree center ave.  at international blvd.",
+          "city": "atlanta",
+          "postal": "30303",
+          "cluster": 399,
+          "latlng": {
+            "__class__": "tuple",
+            "__value__": [
+              33.7589499,
+              -84.3864526
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "__class__": "tuple",
+      "__value__": [
+        {
+          "name": "gumbo pot the",
+          "addr": "6333 w. third st.",
+          "city": "la",
+          "postal": "90036",
+          "cluster": 554,
+          "latlng": {
+            "__class__": "tuple",
+            "__value__": [
+              34.0722795,
+              -118.3602751
+            ]
+          }
+        },
+        {
+          "name": "kokomo cafe",
+          "addr": "6333 w. third st.",
+          "city": "la",
+          "postal": "90036",
+          "cluster": 566,
+          "latlng": {
+            "__class__": "tuple",
+            "__value__": [
+              34.0722795,
+              -118.3602751
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "__class__": "tuple",
+      "__value__": [
+        {
+          "name": "ritz carlton cafe buckhead ",
+          "addr": "3434 peachtree rd. ne",
+          "city": "atlanta",
           "postal": "30326",
           "cluster": 89,
           "latlng": {
@@ -439,10 +216,9 @@
           }
         },
         {
-          "name": "dining room ritz carlton buckhead",
-          "addr": "3434 peachtree rd.",
+          "name": "ritz carlton dining room buckhead ",
+          "addr": "3434 peachtree rd. ne",
           "city": "atlanta",
-          "type": "international",
           "postal": "30326",
           "cluster": 90,
           "latlng": {
@@ -459,137 +235,30 @@
       "__class__": "tuple",
       "__value__": [
         {
-          "name": "bertolini s",
-          "addr": "3500 peachtree rd.  phipps plaza",
-          "city": "atlanta",
-          "type": "italian",
-          "postal": "30326",
-          "cluster": 385,
+          "name": "cafe bizou",
+          "addr": "14016 ventura blvd.",
+          "city": "sherman oaks",
+          "postal": "91423",
+          "cluster": 3,
           "latlng": {
             "__class__": "tuple",
             "__value__": [
-              33.852544,
-              -84.361986
+              34.1488992,
+              -118.4379187
             ]
           }
         },
         {
-          "name": "bertolini s",
-          "addr": "3570 las vegas blvd. s",
-          "city": "las vegas",
-          "type": "italian",
-          "postal": "89109",
-          "cluster": 427,
-          "latlng": {
-            "__class__": "tuple",
-            "__value__": [
-              36.1161559,
-              -115.1750576
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "__class__": "tuple",
-      "__value__": [
-        {
-          "name": "ciboulette restaurant",
-          "addr": "1529 piedmont ave.",
-          "city": "atlanta",
-          "type": "french (new)",
-          "postal": "30324",
-          "cluster": 79,
-          "latlng": {
-            "__class__": "tuple",
-            "__value__": [
-              33.7956505,
-              -84.3688884
-            ]
-          }
-        },
-        {
-          "name": "colonnade restaurant",
-          "addr": "1879 cheshire bridge rd.",
-          "city": "atlanta",
-          "type": "southern",
-          "postal": "30324",
-          "cluster": 392,
-          "latlng": {
-            "__class__": "tuple",
-            "__value__": [
-              33.8092277,
-              -84.3609824
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "__class__": "tuple",
-      "__value__": [
-        {
-          "name": "broadway deli",
-          "addr": "3rd st. promenade",
-          "city": "santa monica",
-          "type": "american",
-          "postal": "90401",
-          "cluster": 117,
-          "latlng": {
-            "__class__": "tuple",
-            "__value__": [
-              34.0161023,
-              -118.4965398
-            ]
-          }
-        },
-        {
-          "name": "remi",
-          "addr": "3rd st. promenade",
-          "city": "santa monica",
-          "type": "italian",
-          "postal": "90401",
-          "cluster": 159,
-          "latlng": {
-            "__class__": "tuple",
-            "__value__": [
-              34.0161023,
-              -118.4965398
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "__class__": "tuple",
-      "__value__": [
-        {
-          "name": "teresa s",
-          "addr": "103 1st ave.  between 6th and 7th sts.",
+          "name": "cafe bianco",
+          "addr": "1486 2nd ave.  between 77th and 78th sts.",
           "city": "new york",
-          "type": "east european",
-          "postal": "10003",
-          "cluster": 358,
+          "postal": "10075",
+          "cluster": 199,
           "latlng": {
             "__class__": "tuple",
             "__value__": [
-              40.7267012,
-              -73.9862398
-            ]
-          }
-        },
-        {
-          "name": "teresa s",
-          "addr": "80 montague st.",
-          "city": "queens",
-          "type": "polish",
-          "postal": "11201",
-          "cluster": 647,
-          "latlng": {
-            "__class__": "tuple",
-            "__value__": [
-              40.6951748,
-              -73.9962484
+              40.7735934,
+              -73.9591119
             ]
           }
         }
@@ -599,32 +268,63 @@
       "__class__": "tuple",
       "__value__": [
         {
-          "name": "bally s big kitchen",
-          "addr": "3645 las vegas blvd. s",
+          "name": "steak house",
+          "addr": "2880 las vegas blvd. s",
           "city": "las vegas",
-          "type": "buffets",
           "postal": "89109",
-          "cluster": 424,
+          "cluster": 72,
           "latlng": {
             "__class__": "tuple",
             "__value__": [
-              36.1142224,
-              -115.1708505
+              36.13764159999999,
+              -115.1653861
             ]
           }
         },
         {
-          "name": "sterling brunch",
-          "addr": "3645 las vegas blvd. s.",
+          "name": "steakhouse the",
+          "addr": "128 e. fremont st.",
           "city": "las vegas",
-          "type": "eclectic",
-          "postal": "89109",
-          "cluster": 673,
+          "postal": "89101",
+          "cluster": 671,
           "latlng": {
             "__class__": "tuple",
             "__value__": [
-              36.1142224,
-              -115.1708505
+              36.1716327,
+              -115.1442634
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "__class__": "tuple",
+      "__value__": [
+        {
+          "name": "palm",
+          "addr": "837 second ave.",
+          "city": "new york city",
+          "postal": "10017",
+          "cluster": 634,
+          "latlng": {
+            "__class__": "tuple",
+            "__value__": [
+              40.7517011,
+              -73.97117990000001
+            ]
+          }
+        },
+        {
+          "name": "palm too",
+          "addr": "840 second ave.",
+          "city": "new york city",
+          "postal": "10017",
+          "cluster": 635,
+          "latlng": {
+            "__class__": "tuple",
+            "__value__": [
+              40.7514669,
+              -73.9706863
             ]
           }
         }
@@ -637,7 +337,6 @@
           "name": "restaurant ritz carlton atlanta",
           "addr": "181 peachtree st.",
           "city": "atlanta",
-          "type": "continental",
           "postal": "30303",
           "cluster": 91,
           "latlng": {
@@ -652,7 +351,6 @@
           "name": "ritz carlton cafe atlanta ",
           "addr": "181 peachtree st.",
           "city": "atlanta",
-          "type": "american (new)",
           "postal": "30303",
           "cluster": 711,
           "latlng": {
@@ -669,32 +367,30 @@
       "__class__": "tuple",
       "__value__": [
         {
-          "name": "palace court",
-          "addr": "3570 las vegas blvd. s",
-          "city": "las vegas",
-          "type": "continental",
-          "postal": "89109",
-          "cluster": 70,
+          "name": "la grotta",
+          "addr": "2637 peachtree rd.  peachtree house condominium",
+          "city": "atlanta",
+          "postal": "30305",
+          "cluster": 85,
           "latlng": {
             "__class__": "tuple",
             "__value__": [
-              36.1161559,
-              -115.1750576
+              33.8266717,
+              -84.38693479999999
             ]
           }
         },
         {
-          "name": "empress court",
-          "addr": "3570 las vegas blvd. s",
-          "city": "las vegas",
-          "type": "asian",
-          "postal": "89109",
-          "cluster": 438,
+          "name": "la grotta at ravinia dunwoody rd ",
+          "addr": "holiday inn/crowne plaza at ravinia  dunwoody",
+          "city": "atlanta",
+          "postal": "30346",
+          "cluster": 402,
           "latlng": {
             "__class__": "tuple",
             "__value__": [
-              36.1161559,
-              -115.1750576
+              33.9209167,
+              -84.3377975
             ]
           }
         }
@@ -704,32 +400,30 @@
       "__class__": "tuple",
       "__value__": [
         {
-          "name": "cafe ritz carlton buckhead",
-          "addr": "3434 peachtree rd.",
-          "city": "atlanta",
-          "type": "ext 6108 international",
-          "postal": "30326",
-          "cluster": 89,
+          "name": "la mediterranee",
+          "addr": "288 noe st.",
+          "city": "san francisco",
+          "postal": "94114",
+          "cluster": 735,
           "latlng": {
             "__class__": "tuple",
             "__value__": [
-              33.8508073,
-              -84.364227
+              37.7645065,
+              -122.433426
             ]
           }
         },
         {
-          "name": "ritz carlton dining room buckhead ",
-          "addr": "3434 peachtree rd. ne",
-          "city": "atlanta",
-          "type": "american (new)",
-          "postal": "30326",
-          "cluster": 90,
+          "name": "la taqueria",
+          "addr": "2889 mission st.",
+          "city": "san francisco",
+          "postal": "94110",
+          "cluster": 736,
           "latlng": {
             "__class__": "tuple",
             "__value__": [
-              33.8508073,
-              -84.364227
+              37.7508992,
+              -122.4181121
             ]
           }
         }
@@ -739,32 +433,96 @@
       "__class__": "tuple",
       "__value__": [
         {
-          "name": "ritz carlton cafe buckhead ",
-          "addr": "3434 peachtree rd. ne",
-          "city": "atlanta",
-          "type": "american (new)",
-          "postal": "30326",
-          "cluster": 89,
+          "name": "hong kong flower lounge",
+          "addr": "5322 geary blvd.",
+          "city": "san francisco",
+          "postal": "94121",
+          "cluster": 480,
           "latlng": {
             "__class__": "tuple",
             "__value__": [
-              33.8508073,
-              -84.364227
+              37.78071509999999,
+              -122.4766654
             ]
           }
         },
         {
-          "name": "dining room ritz carlton buckhead",
-          "addr": "3434 peachtree rd.",
-          "city": "atlanta",
-          "type": "international",
-          "postal": "30326",
-          "cluster": 90,
+          "name": "hong kong villa",
+          "addr": "2332 clement st.",
+          "city": "san francisco",
+          "postal": "94121",
+          "cluster": 481,
           "latlng": {
             "__class__": "tuple",
             "__value__": [
-              33.8508073,
-              -84.364227
+              37.7823089,
+              -122.48447
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "__class__": "tuple",
+      "__value__": [
+        {
+          "name": "caffe dante",
+          "addr": "81 macdougal st.  between houston and bleeker sts.",
+          "city": "new york",
+          "postal": "10012",
+          "cluster": 206,
+          "latlng": {
+            "__class__": "tuple",
+            "__value__": [
+              40.728878,
+              -74.001662
+            ]
+          }
+        },
+        {
+          "name": "caffe lure",
+          "addr": "169 sullivan st.  between houston and bleecker sts.",
+          "city": "new york",
+          "postal": "10012",
+          "cluster": 208,
+          "latlng": {
+            "__class__": "tuple",
+            "__value__": [
+              40.7279278,
+              -74.0009847
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "__class__": "tuple",
+      "__value__": [
+        {
+          "name": "stoyanof s cafe",
+          "addr": "1240 9th ave.",
+          "city": "san francisco",
+          "postal": "94122",
+          "cluster": 516,
+          "latlng": {
+            "__class__": "tuple",
+            "__value__": [
+              37.7651584,
+              -122.4661957
+            ]
+          }
+        },
+        {
+          "name": "yaya cuisine",
+          "addr": "1220 9th ave.",
+          "city": "san francisco",
+          "postal": "94122",
+          "cluster": 529,
+          "latlng": {
+            "__class__": "tuple",
+            "__value__": [
+              37.765495,
+              -122.4661857
             ]
           }
         }
@@ -776,32 +534,30 @@
       "__class__": "tuple",
       "__value__": [
         {
-          "name": "pinot bistro",
-          "addr": "12969 ventura blvd.",
-          "city": "los angeles",
-          "type": "french",
-          "postal": "91604",
-          "cluster": 18,
+          "name": "fringale",
+          "addr": "570 4th st.",
+          "city": "san francisco",
+          "postal": "94107",
+          "cluster": 101,
           "latlng": {
             "__class__": "tuple",
             "__value__": [
-              34.14571950000001,
-              -118.4160795
+              37.7785416,
+              -122.3971931
             ]
           }
         },
         {
-          "name": "pinot bistro",
-          "addr": "12969 ventura blvd.",
-          "city": "studio city",
-          "type": "french bistro",
-          "postal": "91604",
-          "cluster": 18,
+          "name": "fringale",
+          "addr": "570 fourth st.",
+          "city": "san francisco",
+          "postal": "94107",
+          "cluster": 101,
           "latlng": {
             "__class__": "tuple",
             "__value__": [
-              34.14571950000001,
-              -118.4160795
+              37.7785416,
+              -122.3971931
             ]
           }
         }
@@ -811,32 +567,30 @@
       "__class__": "tuple",
       "__value__": [
         {
-          "name": "rainbow room",
-          "addr": "30 rockefeller plaza",
+          "name": "gramercy tavern",
+          "addr": "42 e. 20th st.  between park ave. s and broadway",
           "city": "new york",
-          "type": "or 212/632-5100 american",
-          "postal": "10111",
-          "cluster": 55,
+          "postal": "10003",
+          "cluster": 36,
           "latlng": {
             "__class__": "tuple",
             "__value__": [
-              40.7593755,
-              -73.9799726
+              40.7384555,
+              -73.98850639999999
             ]
           }
         },
         {
-          "name": "rainbow room",
-          "addr": "30 rockefeller plaza",
+          "name": "gramercy tavern",
+          "addr": "42 e. 20th st.",
           "city": "new york city",
-          "type": "american (new)",
-          "postal": "10111",
-          "cluster": 55,
+          "postal": "10003",
+          "cluster": 36,
           "latlng": {
             "__class__": "tuple",
             "__value__": [
-              40.7593755,
-              -73.9799726
+              40.7384647,
+              -73.9884665
             ]
           }
         }
@@ -846,32 +600,30 @@
       "__class__": "tuple",
       "__value__": [
         {
-          "name": "21 club",
-          "addr": "21 w. 52nd st.",
+          "name": "aquavit",
+          "addr": "13 w. 54th st.",
           "city": "new york",
-          "type": "american",
           "postal": "10019",
-          "cluster": 23,
+          "cluster": 24,
           "latlng": {
             "__class__": "tuple",
             "__value__": [
-              40.760533,
-              -73.97739700000001
+              40.7616767,
+              -73.976345
             ]
           }
         },
         {
-          "name": "21 club",
-          "addr": "21 w. 52nd st.",
+          "name": "aquavit",
+          "addr": "13 w. 54th st.",
           "city": "new york city",
-          "type": "american (new)",
           "postal": "10019",
-          "cluster": 23,
+          "cluster": 24,
           "latlng": {
             "__class__": "tuple",
             "__value__": [
-              40.760533,
-              -73.97739700000001
+              40.7616767,
+              -73.976345
             ]
           }
         }
@@ -881,32 +633,30 @@
       "__class__": "tuple",
       "__value__": [
         {
-          "name": "sign of the dove",
-          "addr": "1110 3rd ave. at 65th st.",
-          "city": "new york",
-          "type": "american",
-          "postal": "10065",
-          "cluster": 61,
+          "name": "bone s",
+          "addr": "3130 piedmont road",
+          "city": "atlanta",
+          "postal": "30305",
+          "cluster": 76,
           "latlng": {
             "__class__": "tuple",
             "__value__": [
-              40.7656399,
-              -73.9639684
+              33.8421033,
+              -84.3711029
             ]
           }
         },
         {
-          "name": "sign of the dove",
-          "addr": "1110 third ave.",
-          "city": "new york city",
-          "type": "american (new)",
-          "postal": "10065",
-          "cluster": 61,
+          "name": "bone s restaurant",
+          "addr": "3130 piedmont rd. ne",
+          "city": "atlanta",
+          "postal": "30305",
+          "cluster": 76,
           "latlng": {
             "__class__": "tuple",
             "__value__": [
-              40.7656399,
-              -73.9639684
+              33.8421033,
+              -84.3711029
             ]
           }
         }
@@ -916,32 +666,30 @@
       "__class__": "tuple",
       "__value__": [
         {
-          "name": "tillerman",
-          "addr": "2245 e. flamingo rd.",
-          "city": "las vegas",
-          "type": "seafood",
-          "postal": "89119",
-          "cluster": 73,
+          "name": "heera of india",
+          "addr": "595 piedmont ave.  rio shopping mall",
+          "city": "atlanta",
+          "postal": "30324",
+          "cluster": 83,
           "latlng": {
             "__class__": "tuple",
             "__value__": [
-              36.114384,
-              -115.1218936
+              33.7958168,
+              -84.3706018
             ]
           }
         },
         {
-          "name": "tillerman the",
-          "addr": "2245 e. flamingo rd.",
-          "city": "las vegas",
-          "type": "steakhouses",
-          "postal": "89119",
-          "cluster": 73,
+          "name": "heera of india",
+          "addr": "595 piedmont ave.",
+          "city": "atlanta",
+          "postal": "30308",
+          "cluster": 83,
           "latlng": {
             "__class__": "tuple",
             "__value__": [
-              36.114384,
-              -115.1218936
+              33.7704946,
+              -84.3814251
             ]
           }
         }
@@ -951,67 +699,30 @@
       "__class__": "tuple",
       "__value__": [
         {
-          "name": "smith wollensky",
-          "addr": "201 e. 49th st.",
-          "city": "new york",
-          "type": "american",
-          "postal": "10017",
-          "cluster": 62,
-          "latlng": {
-            "__class__": "tuple",
-            "__value__": [
-              40.755156,
-              -73.9707177
-            ]
-          }
-        },
-        {
-          "name": "smith wollensky",
-          "addr": "797 third ave.",
-          "city": "new york city",
-          "type": "steakhouses",
-          "postal": "10022",
-          "cluster": 62,
-          "latlng": {
-            "__class__": "tuple",
-            "__value__": [
-              40.7551704,
-              -73.9707437
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "__class__": "tuple",
-      "__value__": [
-        {
-          "name": "pinot bistro",
-          "addr": "12969 ventura blvd.",
+          "name": "yujean kang s gourmet chinese cuisine",
+          "addr": "67 n. raymond ave.",
           "city": "los angeles",
-          "type": "french",
-          "postal": "91604",
-          "cluster": 18,
+          "postal": "91103",
+          "cluster": 22,
           "latlng": {
             "__class__": "tuple",
             "__value__": [
-              34.14571950000001,
-              -118.4160795
+              34.147086,
+              -118.1490988
             ]
           }
         },
         {
-          "name": "pinot bistro",
-          "addr": "12969 ventura boulevard",
-          "city": "studio city",
-          "type": "bistro",
-          "postal": "91604",
-          "cluster": 18,
+          "name": "yujean kang s",
+          "addr": "67 n. raymond ave.",
+          "city": "pasadena",
+          "postal": "91103",
+          "cluster": 22,
           "latlng": {
             "__class__": "tuple",
             "__value__": [
-              34.14571950000001,
-              -118.4160795
+              34.147086,
+              -118.1490988
             ]
           }
         }
@@ -1021,45 +732,9 @@
       "__class__": "tuple",
       "__value__": [
         {
-          "name": "restaurant ritz carlton atlanta",
-          "addr": "181 peachtree st.",
-          "city": "atlanta",
-          "type": "continental",
-          "postal": "30303",
-          "cluster": 91,
-          "latlng": {
-            "__class__": "tuple",
-            "__value__": [
-              33.7585793,
-              -84.3870657
-            ]
-          }
-        },
-        {
-          "name": "ritz carlton restaurant",
-          "addr": "181 peachtree st.",
-          "city": "atlanta",
-          "type": "french (classic)",
-          "postal": "30303",
-          "cluster": 91,
-          "latlng": {
-            "__class__": "tuple",
-            "__value__": [
-              33.7585793,
-              -84.3870657
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "__class__": "tuple",
-      "__value__": [
-        {
-          "name": "fenix",
-          "addr": "8358 sunset blvd. west",
-          "city": "hollywood",
-          "type": "american",
+          "name": "fenix at the argyle",
+          "addr": "8358 sunset blvd.",
+          "city": "w. hollywood",
           "postal": "90069",
           "cluster": 7,
           "latlng": {
@@ -1074,7 +749,6 @@
           "name": "fenix at the argyle",
           "addr": "8358 sunset blvd. west",
           "city": "hollywood",
-          "type": "american",
           "postal": "90069",
           "cluster": 7,
           "latlng": {
@@ -1091,102 +765,195 @@
       "__class__": "tuple",
       "__value__": [
         {
-          "name": "steak house",
-          "addr": "2880 las vegas blvd. s",
-          "city": "las vegas",
-          "type": "steak houses",
-          "postal": "89109",
-          "cluster": 72,
-          "latlng": {
-            "__class__": "tuple",
-            "__value__": [
-              36.13764159999999,
-              -115.1653861
-            ]
-          }
-        },
-        {
-          "name": "steak house the",
-          "addr": "2880 las vegas blvd. s.",
-          "city": "las vegas",
-          "type": "steakhouses",
-          "postal": "89109",
-          "cluster": 72,
-          "latlng": {
-            "__class__": "tuple",
-            "__value__": [
-              36.13764159999999,
-              -115.1653861
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "__class__": "tuple",
-      "__value__": [
-        {
-          "name": "hedgerose heights inn",
-          "addr": "490 e. paces ferry rd.",
-          "city": "atlanta",
-          "type": "international",
-          "postal": "30305",
-          "cluster": 82,
-          "latlng": {
-            "__class__": "tuple",
-            "__value__": [
-              33.8387692,
-              -84.37190679999999
-            ]
-          }
-        },
-        {
-          "name": "hedgerose heights inn the",
-          "addr": "490 e. paces ferry rd. ne",
-          "city": "atlanta",
-          "type": "continental",
-          "postal": "30305",
-          "cluster": 82,
-          "latlng": {
-            "__class__": "tuple",
-            "__value__": [
-              33.8387692,
-              -84.37190679999999
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "__class__": "tuple",
-      "__value__": [
-        {
-          "name": "four seasons grill room",
-          "addr": "99 e. 52nd st.",
+          "name": "virgil s",
+          "addr": "152 w. 44th st.",
           "city": "new york",
-          "type": "american",
-          "postal": "10022",
-          "cluster": 34,
+          "postal": "10036",
+          "cluster": 66,
           "latlng": {
             "__class__": "tuple",
             "__value__": [
-              40.7583177,
-              -73.9718681
+              40.75675460000001,
+              -73.9851608
             ]
           }
         },
         {
-          "name": "four seasons",
-          "addr": "99 e. 52nd st.",
+          "name": "virgil s real bbq",
+          "addr": "152 w. 44th st.",
           "city": "new york city",
-          "type": "american (new)",
-          "postal": "10022",
-          "cluster": 34,
+          "postal": "10036",
+          "cluster": 66,
           "latlng": {
             "__class__": "tuple",
             "__value__": [
-              40.7583177,
-              -73.9718681
+              40.75675460000001,
+              -73.9851608
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "__class__": "tuple",
+      "__value__": [
+        {
+          "name": "lulu",
+          "addr": "816 folsom st.",
+          "city": "san francisco",
+          "postal": "94107",
+          "cluster": 105,
+          "latlng": {
+            "__class__": "tuple",
+            "__value__": [
+              37.7817926,
+              -122.4018175
+            ]
+          }
+        },
+        {
+          "name": "lulu restaurant bis cafe",
+          "addr": "816 folsom st.",
+          "city": "san francisco",
+          "postal": "94107",
+          "cluster": 105,
+          "latlng": {
+            "__class__": "tuple",
+            "__value__": [
+              37.7817926,
+              -122.4018175
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "__class__": "tuple",
+      "__value__": [
+        {
+          "name": "abruzzi",
+          "addr": "2355 peachtree rd.  peachtree battle shopping center",
+          "city": "atlanta",
+          "postal": "30305",
+          "cluster": 74,
+          "latlng": {
+            "__class__": "tuple",
+            "__value__": [
+              33.8201374,
+              -84.3872795
+            ]
+          }
+        },
+        {
+          "name": "abruzzi",
+          "addr": "2355 peachtree rd. ne",
+          "city": "atlanta",
+          "postal": "30305",
+          "cluster": 74,
+          "latlng": {
+            "__class__": "tuple",
+            "__value__": [
+              33.8246473,
+              -84.387453
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "__class__": "tuple",
+      "__value__": [
+        {
+          "name": "les celebrites",
+          "addr": "160 central park s",
+          "city": "new york",
+          "postal": "10019",
+          "cluster": 42,
+          "latlng": {
+            "__class__": "tuple",
+            "__value__": [
+              40.7660165,
+              -73.97864109999999
+            ]
+          }
+        },
+        {
+          "name": "les celebrites",
+          "addr": "155 w. 58th st.",
+          "city": "new york city",
+          "postal": "10019",
+          "cluster": 42,
+          "latlng": {
+            "__class__": "tuple",
+            "__value__": [
+              40.7659005,
+              -73.97841389999999
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "__class__": "tuple",
+      "__value__": [
+        {
+          "name": "toulouse",
+          "addr": "b peachtree rd.",
+          "city": "atlanta",
+          "postal": "30309",
+          "cluster": 92,
+          "latlng": {
+            "__class__": "tuple",
+            "__value__": [
+              33.8104242,
+              -84.3921427
+            ]
+          }
+        },
+        {
+          "name": "toulouse",
+          "addr": "293-b peachtree rd.",
+          "city": "atlanta",
+          "postal": "30309",
+          "cluster": 92,
+          "latlng": {
+            "__class__": "tuple",
+            "__value__": [
+              33.8104242,
+              -84.3921427
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "__class__": "tuple",
+      "__value__": [
+        {
+          "name": "dining room ritz carlton buckhead",
+          "addr": "3434 peachtree rd.",
+          "city": "atlanta",
+          "postal": "30326",
+          "cluster": 90,
+          "latlng": {
+            "__class__": "tuple",
+            "__value__": [
+              33.8508073,
+              -84.364227
+            ]
+          }
+        },
+        {
+          "name": "ritz carlton dining room buckhead ",
+          "addr": "3434 peachtree rd. ne",
+          "city": "atlanta",
+          "postal": "30326",
+          "cluster": 90,
+          "latlng": {
+            "__class__": "tuple",
+            "__value__": [
+              33.8508073,
+              -84.364227
             ]
           }
         }
@@ -1199,7 +966,6 @@
           "name": "the palm",
           "addr": "9001 santa monica blvd.",
           "city": "los angeles",
-          "type": "american",
           "postal": "90069",
           "cluster": 15,
           "latlng": {
@@ -1214,7 +980,6 @@
           "name": "the palm los angeles",
           "addr": "9001 sta monica boulevard",
           "city": "hollywood",
-          "type": "steakhouses",
           "postal": "90069",
           "cluster": 15,
           "latlng": {
@@ -1231,32 +996,30 @@
       "__class__": "tuple",
       "__value__": [
         {
-          "name": "le montrachet",
-          "addr": "3000 w. paradise rd.",
-          "city": "las vegas",
-          "type": "continental",
-          "postal": "89109",
-          "cluster": 69,
+          "name": "restaurant ritz carlton atlanta",
+          "addr": "181 peachtree st.",
+          "city": "atlanta",
+          "postal": "30303",
+          "cluster": 91,
           "latlng": {
             "__class__": "tuple",
             "__value__": [
-              36.1362611,
-              -115.1512539
+              33.7585793,
+              -84.3870657
             ]
           }
         },
         {
-          "name": "le montrachet bistro",
-          "addr": "3000 paradise rd.",
-          "city": "las vegas",
-          "type": "french bistro",
-          "postal": "89109",
-          "cluster": 69,
+          "name": "ritz carlton restaurant",
+          "addr": "181 peachtree st.",
+          "city": "atlanta",
+          "postal": "30303",
+          "cluster": 91,
           "latlng": {
             "__class__": "tuple",
             "__value__": [
-              36.1362611,
-              -115.1512539
+              33.7585793,
+              -84.3870657
             ]
           }
         }
@@ -1266,32 +1029,30 @@
       "__class__": "tuple",
       "__value__": [
         {
-          "name": "gotham bar and grill",
-          "addr": "12 e 12th st",
-          "city": "new york city",
-          "type": "new american",
-          "postal": "10003",
-          "cluster": 35,
+          "name": "smith wollensky",
+          "addr": "201 e. 49th st.",
+          "city": "new york",
+          "postal": "10017",
+          "cluster": 62,
           "latlng": {
             "__class__": "tuple",
             "__value__": [
-              40.734207,
-              -73.99369899999999
+              40.755156,
+              -73.9707177
             ]
           }
         },
         {
-          "name": "gotham",
-          "addr": "12 e 12th st",
-          "city": "new york",
-          "type": "new american",
-          "postal": "10003",
-          "cluster": 35,
+          "name": "smith wollensky",
+          "addr": "797 third ave.",
+          "city": "new york city",
+          "postal": "10022",
+          "cluster": 62,
           "latlng": {
             "__class__": "tuple",
             "__value__": [
-              40.734207,
-              -73.99369899999999
+              40.7551704,
+              -73.9707437
             ]
           }
         }
