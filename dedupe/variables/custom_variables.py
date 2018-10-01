@@ -29,4 +29,4 @@ class ExpLatLongType(LatLongType):
         return _exp_sim(
             np.float32(dist),
             scale=np.float32(0.1),
-            offset=np.float32(0.05))
+            offset=np.float32(0.01))
