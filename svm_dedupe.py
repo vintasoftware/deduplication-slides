@@ -16,12 +16,12 @@ class SVMLearner(RLRLearner):
 
     def fit_transform(self, pairs, y):
         y = numpy.array(y)
-        if not y.any():
+        if not y.any() and self.y.any():
             random_pair = random.choice(self.candidates)
             exact_match = (random_pair[0], random_pair[0])
             pairs = pairs + [exact_match]
             y = numpy.concatenate([y, [1]])
-        elif numpy.count_nonzero(y) == len(y):
+        elif numpy.count_nonzero(y) == len(y) and numpy.count_nonzero(self.y) == len(self.y):
             random_pair = random.choice(self.candidates)
             pairs = pairs + [random_pair]
             y = numpy.concatenate([y, [0]])

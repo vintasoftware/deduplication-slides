@@ -1,437 +1,404 @@
-name : caravelle
-addr : 33 w. 55th st.
-postal : 10019
-latlng : (40.7625104, -73.9763684)
+name : cafe lalo
+addr : 201 w. 83rd st.
+postal : 10024
+latlng : (40.78598119999999, -73.97672659999999)
 
-name : claude
-addr : 7 claude la.
-postal : 94108
-latlng : (37.7903324, -122.404517)
+name : first
+addr : 87 1st ave.  between 5th and 6th sts.
+postal : 10003
+latlng : (40.7261615, -73.9867907)
 
 0/10 positive, 0/10 negative
 Do these records refer to the same thing?
 (y)es / (n)o / (u)nsure / (f)inished
 n
 
-name : judson
-addr : 152 w. 52nd st.
+name : 21 club
+addr : 21 w. 52nd st.
 postal : 10019
-latlng : (40.7617821, -73.9817245)
+latlng : (40.760533, -73.97739700000001)
 
-name : binion coffee shop
-addr : 128 fremont st.
-postal : 89101
-latlng : (36.1716327, -115.1442634)
+name : smith wollensky
+addr : 797 third ave.
+postal : 10022
+latlng : (40.7551704, -73.9707437)
 
 0/10 positive, 1/10 negative
 Do these records refer to the same thing?
 (y)es / (n)o / (u)nsure / (f)inished
 n
 
-name : chardonnay
-addr : 8284 melrose ave.
-postal : 90046
-latlng : (34.083422, -118.370118)
+name : rj s the rib joint
+addr : 252 n. beverly dr.
+postal : 90210
+latlng : (34.0682978, -118.3998339)
 
-name : eclipse
-addr : 8800 melrose ave.
-postal : 90069
-latlng : (34.0805659, -118.3857525)
+name : benita s frites
+addr : 1433 third st. promenade
+postal : 90401
+latlng : (34.0152381, -118.4955253)
 
 0/10 positive, 2/10 negative
 Do these records refer to the same thing?
 (y)es / (n)o / (u)nsure / (f)inished
 n
 
-name : fes
-addr : 246 w. 4th st. at charles st.
-postal : 10014
-latlng : (40.7347279, -74.00321980000001)
+name : bacchanalia
+addr : 3125 piedmont rd.  near peachtree rd.
+postal : 30305
+latlng : (33.8420454, -84.369874)
 
-name : splendido embarcadero
-addr : 4
-postal : None
-latlng : (37.7779649, -122.3962019)
+name : dining room ritz carlton buckhead
+addr : 3434 peachtree rd.
+postal : 30326
+latlng : (33.8508073, -84.364227)
 
 0/10 positive, 3/10 negative
 Do these records refer to the same thing?
 (y)es / (n)o / (u)nsure / (f)inished
 n
 
-name : sofi
-addr : 3rd st.
-postal : None
-latlng : (33.4947903, -112.069374)
+name : abruzzi
+addr : 2355 peachtree rd.  peachtree battle shopping center
+postal : 30305
+latlng : (33.8201374, -84.3872795)
 
-name : kelley ping
-addr : 127 greene st.
-postal : 10012
-latlng : (40.72559649999999, -73.9991407)
+name : splendido embarcadero
+addr : 4
+postal : None
+latlng : (37.7779649, -122.3962019)
 
 0/10 positive, 4/10 negative
 Do these records refer to the same thing?
 (y)es / (n)o / (u)nsure / (f)inished
 n
 
-name : aqua
-addr : 252 california st.
-postal : 94111
-latlng : (37.7934609, -122.3996416)
+name : le bernardin
+addr : 155 w. 51st st.
+postal : 10019
+latlng : (40.7615691, -73.98180479999999)
 
-name : border
-addr : 4th st.
-postal : None
-latlng : (34.0558473, -118.258373)
+name : le bernardin
+addr : 155 w. 51st st.
+postal : 10019
+latlng : (40.7615691, -73.98180479999999)
 
 0/10 positive, 5/10 negative
 Do these records refer to the same thing?
 (y)es / (n)o / (u)nsure / (f)inished
-n
-
-name : bernardin
-addr : 155 w. 51st st.
-postal : 10019
-latlng : (40.7615691, -73.98180479999999)
-
-name : bernardin
-addr : 155 w. 51st st.
-postal : 10019
-latlng : (40.7615691, -73.98180479999999)
-
-0/10 positive, 6/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
 y
 
-name : lalo
-addr : 201 w. 83rd st.
-postal : 10024
-latlng : (40.78598119999999, -73.97672659999999)
+INFO:dedupe.training:Final predicate set:
+INFO:dedupe.training:(SimplePredicate: (twoGramFingerprint, addr), SimplePredicate: (wholeFieldPredicate, name))
+name : manora
+addr : 3226 mission st.
+postal : 94110
+latlng : (37.7451375, -122.4205013)
 
-name : lalo
-addr : 201 w. 83rd st.
-postal : 10024
-latlng : (40.78598119999999, -73.97672659999999)
+name : dusit thai
+addr : 3221 mission st.
+postal : 94110
+latlng : (37.745107, -122.4198625)
+
+1/10 positive, 5/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished
+n
+
+name : san domenico
+addr : 240 central park s
+postal : 10019
+latlng : (40.767434, -73.9811782)
+
+name : san domenico
+addr : 240 central park s.
+postal : 10019
+latlng : (40.767434, -73.9811782)
 
 1/10 positive, 6/10 negative
 Do these records refer to the same thing?
 (y)es / (n)o / (u)nsure / (f)inished
 y
 
-INFO:dedupe.training:Final predicate set:
-INFO:dedupe.training:(SimplePredicate: (wholeFieldPredicate, addr), SimplePredicate: (wholeFieldPredicate, name))
-name : chinois main
-addr : 2709 main st.
-postal : 90405
-latlng : (34.0009389, -118.4820577)
+name : boulevard
+addr : 1 mission st.
+postal : 94105
+latlng : (37.79332, -122.392761)
 
-name : chinois main
-addr : 2709 main st.
-postal : 90405
-latlng : (34.0009389, -118.4820577)
+name : boulevard
+addr : 1 mission st.
+postal : 94105
+latlng : (37.79332, -122.392761)
 
 2/10 positive, 6/10 negative
 Do these records refer to the same thing?
 (y)es / (n)o / (u)nsure / (f)inished
 y
 
-name : virgil real bbq
-addr : 152 w. 44th st.
-postal : 10036
-latlng : (40.75675460000001, -73.9851608)
+name : anche vivolo
+addr : 222 e. 58th st.  between 2nd and 3rd aves.
+postal : 10022
+latlng : (40.760306, -73.966152)
 
-name : osteria al droge
-addr : 142 w. 44th st.
-postal : 10036
-latlng : (40.7566223, -73.9849083)
+name : girafe
+addr : 208 e. 58th st.  between 2nd and 3rd aves.
+postal : 10022
+latlng : (40.7605115, -73.9665768)
 
 3/10 positive, 6/10 negative
 Do these records refer to the same thing?
 (y)es / (n)o / (u)nsure / (f)inished
 n
 
-name : gramercy tavern
-addr : 42 e. 20th st.  between park ave. s and broadway
-postal : 10003
-latlng : (40.7384555, -73.98850639999999)
+name : empress court
+addr : 3570 las vegas blvd. s
+postal : 89109
+latlng : (36.1161559, -115.1750576)
 
-name : patria
-addr : 250 park ave. s at 20th st.
-postal : 10003
-latlng : (40.7382552, -73.988214)
+name : the bacchanal
+addr : 3570 las vegas blvd. s
+postal : 89109
+latlng : (36.1161559, -115.1750576)
 
 3/10 positive, 7/10 negative
 Do these records refer to the same thing?
 (y)es / (n)o / (u)nsure / (f)inished
 n
 
-name : chardonnay
-addr : 8284 melrose ave.
-postal : 90046
-latlng : (34.083422, -118.370118)
+INFO:dedupe.training:Final predicate set:
+name : pisces
+addr : 95 ave. a at 6th st.
+postal : 10009
+latlng : (40.72565100000001, -73.9840645)
 
-name : chardonnay los angeles
-addr : 8284 melrose ave.
-postal : 90046
-latlng : (34.083422, -118.370118)
+name : pisces
+addr : 95 ave. a
+postal : 10009
+latlng : (40.7256332, -73.984031)
 
 3/10 positive, 8/10 negative
 Do these records refer to the same thing?
 (y)es / (n)o / (u)nsure / (f)inished
 y
 
-name : art delicatessen
-addr : 12224 ventura blvd.
-postal : 91604
-latlng : (34.1429661, -118.3994688)
+name : l orangerie
+addr : 903 n. la cienega blvd.
+postal : 90069
+latlng : (34.0870981, -118.376626)
 
-name : art deli
-addr : 12224 ventura blvd.
-postal : 91604
-latlng : (34.1429661, -118.3994688)
+name : l orangerie
+addr : 903 n. la cienega blvd.
+postal : 90028
+latlng : (34.1008332, -118.3256128)
 
 4/10 positive, 8/10 negative
 Do these records refer to the same thing?
 (y)es / (n)o / (u)nsure / (f)inished
 y
 
-INFO:dedupe.training:Final predicate set:
-INFO:dedupe.training:(SimplePredicate: (wholeFieldPredicate, addr), TfidfNGramCanopyPredicate: (0.6, name))
-name : palm
-addr : 9001 santa monica blvd.
-postal : 90069
-latlng : (34.083064, -118.387282)
+INFO:dedupe.training:(SimplePredicate: (wholeFieldPredicate, name), TfidfNGramCanopyPredicate: (0.6, addr))
+name : alain rondelli
+addr : 126 clement st.
+postal : 94118
+latlng : (37.7833153, -122.4606785)
 
-name : palm los angeles
-addr : 9001 santa monica blvd.
-postal : 90069
-latlng : (34.083064, -118.387282)
+name : le soleil
+addr : 133 clement st.
+postal : 94118
+latlng : (37.7829909, -122.4606844)
 
 5/10 positive, 8/10 negative
 Do these records refer to the same thing?
 (y)es / (n)o / (u)nsure / (f)inished
-y
-
-name : citrus
-addr : 6703 melrose ave.
-postal : 90038
-latlng : (34.0837081, -118.3399396)
-
-name : citrus
-addr : 6703 melrose avenue
-postal : 90038
-latlng : (34.0837081, -118.3399396)
-
-6/10 positive, 8/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
-y
-
-INFO:dedupe.training:Final predicate set:
-INFO:dedupe.training:(SimplePredicate: (sameThreeCharStartPredicate, name), SimplePredicate: (wholeFieldPredicate, addr))
-INFO:dedupe.training:Final predicate set:
-INFO:dedupe.training:(LevenshteinCanopyPredicate: (3, addr), SimplePredicate: (firstTokenPredicate, name))
-name : hedgerose heights inn
-addr : 490 e. paces ferry rd.
-postal : 30305
-latlng : (33.8387692, -84.37190679999999)
-
-name : hedgerose heights inn
-addr : 490 e. paces ferry rd. ne
-postal : 30305
-latlng : (33.8387692, -84.37190679999999)
-
-7/10 positive, 8/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
-y
-
-name : pinot bistro
-addr : 12969 ventura blvd.
-postal : 91604
-latlng : (34.14571950000001, -118.4160795)
-
-name : pinot bistro
-addr : 12969 ventura boulevard
-postal : 91604
-latlng : (34.14571950000001, -118.4160795)
-
-8/10 positive, 8/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
-y
-
-name : buccaneer bay club
-addr : 3300 las vegas blvd. s.
-postal : 89109
-latlng : (36.1247643, -115.1719639)
-
-name : madame ching
-addr : 3300 las vegas blvd. s.
-postal : 89109
-latlng : (36.1247643, -115.1719639)
-
-9/10 positive, 8/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
 n
 
-INFO:dedupe.training:Final predicate set:
-INFO:dedupe.training:(SimplePredicate: (firstTokenPredicate, name), SimplePredicate: (sortedAcronym, addr))
-INFO:dedupe.training:(LevenshteinCanopyPredicate: (4, addr), SimplePredicate: (commonThreeTokens, name))
-name : joe allen
-addr : 326 w. 46th st.
+name : le madri
+addr : 168 w. 18th st.
+postal : 10011
+latlng : (40.7407432, -73.9976375)
+
+name : le marais
+addr : 150 w. 46th st.
 postal : 10036
-latlng : (40.7600663, -73.9891208)
+latlng : (40.7580041, -73.98431149999999)
 
-name : orso
-addr : 322 w. 46th st.
-postal : 10036
-latlng : (40.7600114, -73.989006)
-
-9/10 positive, 9/10 negative
+5/10 positive, 9/10 negative
 Do these records refer to the same thing?
 (y)es / (n)o / (u)nsure / (f)inished
 n
 
-name : ritz carlton buckhead
-addr : 3434 peachtree rd. ne
-postal : 30326
-latlng : (33.8508073, -84.364227)
+name : cafe bianco
+addr : 1486 2nd ave.  between 77th and 78th sts.
+postal : 10075
+latlng : (40.7735934, -73.9591119)
 
-name : dining room ritz carlton buckhead
-addr : 3434 peachtree rd.
-postal : 30326
-latlng : (33.8508073, -84.364227)
+name : cafe botanica
+addr : 160 central park s
+postal : 10019
+latlng : (40.7660165, -73.97864109999999)
 
-9/10 positive, 10/10 negative
+5/10 positive, 10/10 negative
 Do these records refer to the same thing?
 (y)es / (n)o / (u)nsure / (f)inished
 n
 
-name : fringale
-addr : 570 4th st.
-postal : 94107
-latlng : (37.7785416, -122.3971931)
+name : abruzzi
+addr : 2355 peachtree rd.  peachtree battle shopping center
+postal : 30305
+latlng : (33.8201374, -84.3872795)
 
-name : fringale
-addr : 570 fourth st.
-postal : 94107
-latlng : (37.7785416, -122.3971931)
+name : abruzzi
+addr : 2355 peachtree rd. ne
+postal : 30305
+latlng : (33.8246473, -84.387453)
 
-9/10 positive, 11/10 negative
+5/10 positive, 11/10 negative
 Do these records refer to the same thing?
 (y)es / (n)o / (u)nsure / (f)inished
 y
 
-name : nikolai roof
-addr : 255 courtland st.  at harris st.
-postal : 30303
-latlng : (33.761546, -84.383562)
+name : art s deli
+addr : 12224 ventura blvd.
+postal : 91604
+latlng : (34.1429661, -118.3994688)
 
-name : nikolai roof
-addr : 255 courtland st.
-postal : 30303
-latlng : (33.761546, -84.383562)
+name : art s deli
+addr : 12224 ventura blvd.
+postal : 91604
+latlng : (34.1429661, -118.3994688)
 
-10/10 positive, 11/10 negative
+6/10 positive, 11/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished
+y
+
+name : stars
+addr : 150 redwood alley
+postal : 94102
+latlng : (37.7808938, -122.419481)
+
+name : stars cafe
+addr : 500 van ness ave.
+postal : 94102
+latlng : (37.7802979, -122.4200025)
+
+7/10 positive, 11/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished
+n
+
+name : gotham bar grill
+addr : 12 e. 12th st.
+postal : 10003
+latlng : (40.734207, -73.99369899999999)
+
+name : gotham bar and grill
+addr : 12 e 12th st
+postal : 10003
+latlng : (40.734207, -73.99369899999999)
+
+7/10 positive, 12/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished
+y
+
+name : mesa grill
+addr : 102 5th ave.  between 15th and 16th sts.
+postal : 10011
+latlng : (40.7370445, -73.9931189)
+
+name : mesa grill
+addr : 102 fifth ave.
+postal : 10011
+latlng : (40.7370445, -73.9931189)
+
+8/10 positive, 12/10 negative
 Do these records refer to the same thing?
 (y)es / (n)o / (u)nsure / (f)inished
 y
 
 INFO:dedupe.training:Final predicate set:
-INFO:dedupe.training:(SimplePredicate: (firstIntegerPredicate, addr), SimplePredicate: (sameThreeCharStartPredicate, name))
-name : toulouse
-addr : b peachtree rd.
-postal : 30309
-latlng : (33.8104242, -84.3921427)
+INFO:dedupe.training:(LevenshteinCanopyPredicate: (4, name), SimplePredicate: (sameFiveCharStartPredicate, addr))
+name : grill on the alley
+addr : 9560 dayton way
+postal : 90210
+latlng : (34.0673605, -118.4018937)
 
-name : toulouse
-addr : 293-b peachtree rd.
-postal : 30309
-latlng : (33.8104242, -84.3921427)
+name : grill the
+addr : 9560 dayton way
+postal : 90210
+latlng : (34.0673605, -118.4018937)
 
-11/10 positive, 11/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
-y
-
-name : brasserie coze
-addr : 3393 peachtree rd.  lenox square mall  near neiman marcus
-postal : 30326
-latlng : (33.846181, -84.364109)
-
-name : brasserie coze
-addr : 3393 peachtree rd.
-postal : 30326
-latlng : (33.8468686, -84.36251209999999)
-
-12/10 positive, 11/10 negative
+9/10 positive, 12/10 negative
 Do these records refer to the same thing?
 (y)es / (n)o / (u)nsure / (f)inished
 y
 
 INFO:dedupe.training:Final predicate set:
-INFO:dedupe.training:(SimplePredicate: (firstTokenPredicate, name), SimplePredicate: (sameSevenCharStartPredicate, postal))
-name : hong kong flower lounge
-addr : 5322 geary blvd.
-postal : 94121
-latlng : (37.78071509999999, -122.4766654)
+INFO:dedupe.training:(LevenshteinCanopyPredicate: (4, name), SimplePredicate: (firstIntegerPredicate, addr))
+name : restaurant ritz carlton atlanta
+addr : 181 peachtree st.
+postal : 30303
+latlng : (33.7585793, -84.3870657)
 
-name : hong kong villa
-addr : 2332 clement st.
-postal : 94121
-latlng : (37.7823089, -122.48447)
+name : ritz carlton restaurant
+addr : 181 peachtree st.
+postal : 30303
+latlng : (33.7585793, -84.3870657)
 
-13/10 positive, 11/10 negative
+10/10 positive, 12/10 negative
 Do these records refer to the same thing?
 (y)es / (n)o / (u)nsure / (f)inished
-n
+y
 
-name : palace court
-addr : 3570 las vegas blvd. s
-postal : 89109
-latlng : (36.1161559, -115.1750576)
+INFO:dedupe.training:Final predicate set:
+INFO:dedupe.training:(SimplePredicate: (firstIntegerPredicate, addr), TfidfNGramCanopyPredicate: (0.6, name))
+name : fenix
+addr : 8358 sunset blvd. west
+postal : 90069
+latlng : (34.0950968, -118.3719666)
 
-name : empress court
-addr : 3570 las vegas blvd. s
+name : fenix at the argyle
+addr : 8358 sunset blvd.
+postal : 90069
+latlng : (34.0950968, -118.3719666)
+
+11/10 positive, 12/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished
+y
+
+name : the palm
+addr : 9001 santa monica blvd.
+postal : 90069
+latlng : (34.083064, -118.387282)
+
+name : the palm los angeles
+addr : 9001 sta monica boulevard
+postal : 90069
+latlng : (34.083064, -118.387282)
+
+12/10 positive, 12/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished
+y
+
+INFO:dedupe.training:Final predicate set:
+INFO:dedupe.training:(SimplePredicate: (firstIntegerPredicate, addr), TfidfNGramCanopyPredicate: (0.4, name))
+name : steak house
+addr : 2880 las vegas blvd. s
 postal : 89109
-latlng : (36.1161559, -115.1750576)
+latlng : (36.13764159999999, -115.1653861)
+
+name : circus circus
+addr : 2880 las vegas blvd. s
+postal : 89109
+latlng : (36.13764159999999, -115.1653861)
 
 13/10 positive, 12/10 negative
 Do these records refer to the same thing?
 (y)es / (n)o / (u)nsure / (f)inished
 n
-
-name : carey
-addr : 1021 cobb pkwy. se
-postal : 30067
-latlng : (33.9269078, -84.5072237)
-
-name : carey corner
-addr : 1215 powers ferry rd.
-postal : 30067
-latlng : (33.9222204, -84.4676983)
-
-13/10 positive, 13/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
-n
-
-name : dining room ritz carlton buckhead
-addr : 3434 peachtree rd.
-postal : 30326
-latlng : (33.8508073, -84.364227)
-
-name : ritz carlton dining room buckhead
-addr : 3434 peachtree rd. ne
-postal : 30326
-latlng : (33.8508073, -84.364227)
-
-13/10 positive, 14/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
-y
 
 name : smith wollensky
 addr : 201 e. 49th st.
@@ -443,55 +410,86 @@ addr : 797 third ave.
 postal : 10022
 latlng : (40.7551704, -73.9707437)
 
-14/10 positive, 14/10 negative
+13/10 positive, 13/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished
+y
+
+name : toulouse
+addr : b peachtree rd.
+postal : 30309
+latlng : (33.8104242, -84.3921427)
+
+name : toulouse
+addr : 293-b peachtree rd.
+postal : 30309
+latlng : (33.8104242, -84.3921427)
+
+14/10 positive, 13/10 negative
 Do these records refer to the same thing?
 (y)es / (n)o / (u)nsure / (f)inished
 y
 
 INFO:dedupe.training:Final predicate set:
-INFO:dedupe.training:(SimplePredicate: (sameSevenCharStartPredicate, postal), TfidfNGramCanopyPredicate: (0.4, name))
-name : hotel bel air
-addr : 701 stone canyon rd.
-postal : 90077
-latlng : (34.0865944, -118.4463507)
+INFO:dedupe.training:(SimplePredicate: (sameFiveCharStartPredicate, addr), TfidfNGramCanopyPredicate: (0.4, name))
+INFO:dedupe.training:(SimplePredicate: (hundredIntegerPredicate, postal), SimplePredicate: (wholeFieldPredicate, name))
+name : bone s
+addr : 3130 piedmont road
+postal : 30305
+latlng : (33.8421033, -84.3711029)
 
-name : bel air hotel
-addr : 701 stone canyon rd.
-postal : 90077
-latlng : (34.0865944, -118.4463507)
+name : bone s restaurant
+addr : 3130 piedmont rd. ne
+postal : 30305
+latlng : (33.8421033, -84.3711029)
 
-15/10 positive, 14/10 negative
+15/10 positive, 13/10 negative
 Do these records refer to the same thing?
 (y)es / (n)o / (u)nsure / (f)inished
 y
 
-INFO:dedupe.training:Final predicate set:
-INFO:dedupe.training:(SimplePredicate: (fingerprint, name), SimplePredicate: (sameThreeCharStartPredicate, postal))
-INFO:dedupe.training:(SimplePredicate: (sameThreeCharStartPredicate, name), SimplePredicate: (wholeFieldPredicate, addr))
-name : ritz carlton buckhead
-addr : 3434 peachtree rd.
-postal : 30326
-latlng : (33.8508073, -84.364227)
+name : palace court
+addr : 3570 las vegas blvd. s
+postal : 89109
+latlng : (36.1161559, -115.1750576)
 
-name : dining room ritz carlton buckhead
-addr : 3434 peachtree rd.
-postal : 30326
-latlng : (33.8508073, -84.364227)
+name : cafe roma
+addr : 3570 las vegas blvd. s
+postal : 89109
+latlng : (36.1161559, -115.1750576)
+
+16/10 positive, 13/10 negative
+Do these records refer to the same thing?
+(y)es / (n)o / (u)nsure / (f)inished
+n
+
+INFO:dedupe.training:Final predicate set:
+INFO:dedupe.training:(SimplePredicate: (sameFiveCharStartPredicate, addr), SimplePredicate: (sameFiveCharStartPredicate, name))
+INFO:dedupe.training:(SimplePredicate: (latLongGridPredicate, latlng), SimplePredicate: (oneGramFingerprint, name))
+name : buccaneer bay club
+addr : 3300 las vegas blvd. s.
+postal : 89109
+latlng : (36.1247643, -115.1719639)
+
+name : madame ching s
+addr : 3300 las vegas blvd. s.
+postal : 89109
+latlng : (36.1247643, -115.1719639)
 
 16/10 positive, 14/10 negative
 Do these records refer to the same thing?
 (y)es / (n)o / (u)nsure / (f)inished
 n
 
-name : fenix
-addr : 8358 sunset blvd.
-postal : 90069
-latlng : (34.0950968, -118.3719666)
+name : tavern on the green
+addr : in central park at 67th st.
+postal : 10023
+latlng : (40.7730403, -73.97829449999999)
 
-name : fenix at argyle
-addr : 8358 sunset blvd. west
-postal : 90069
-latlng : (34.0950968, -118.3719666)
+name : tavern on the green
+addr : central park west
+postal : None
+latlng : (40.784612, -73.9698224)
 
 16/10 positive, 15/10 negative
 Do these records refer to the same thing?
@@ -499,131 +497,5 @@ Do these records refer to the same thing?
 y
 
 INFO:dedupe.training:Final predicate set:
-INFO:dedupe.training:(SimplePredicate: (firstTokenPredicate, name), TfidfNGramCanopyPredicate: (0.4, addr))
-INFO:dedupe.training:(SimplePredicate: (commonTwoTokens, name), SimplePredicate: (fingerprint, name))
-name : heera india
-addr : 595 piedmont ave.  rio shopping mall
-postal : 30324
-latlng : (33.7958168, -84.3706018)
-
-name : heera india
-addr : 595 piedmont ave.
-postal : 30308
-latlng : (33.7704946, -84.3814251)
-
-17/10 positive, 15/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
-y
-
-name : ritz carlton buckhead
-addr : 3434 peachtree rd. ne
-postal : 30326
-latlng : (33.8508073, -84.364227)
-
-name : ritz carlton atlanta
-addr : 181 peachtree st.
-postal : 30303
-latlng : (33.7585793, -84.3870657)
-
-18/10 positive, 15/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
-n
-
-name : tavern green
-addr : in central park at 67th st.
-postal : 10023
-latlng : (40.7730403, -73.97829449999999)
-
-name : tavern green
-addr : central park west
-postal : None
-latlng : (40.784612, -73.9698224)
-
-18/10 positive, 16/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
-y
-
-name : smith wollensky
-addr : 201 e. 49th st.
-postal : 10017
-latlng : (40.755156, -73.9707177)
-
-name : wollensky
-addr : 205 e. 49th st.
-postal : 10017
-latlng : (40.7552892, -73.971029)
-
-19/10 positive, 16/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
-n
-
-name : french roast
-addr : 458 6th ave. at 11th st.
-postal : 10011
-latlng : (40.735146, -73.99803790000001)
-
-name : french roast
-addr : 2340 broadway at 85th st.
-postal : 10024
-latlng : (40.78764169999999, -73.97659019999999)
-
-19/10 positive, 17/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
-n
-
-name : hard rock
-addr : 8600 beverly blvd.
-postal : 90048
-latlng : (34.0759255, -118.3788434)
-
-name : hard rock
-addr : 221 w. 57th st.
-postal : 10019
-latlng : (40.7661451, -73.9810163)
-
-19/10 positive, 18/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
-n
-
-name : caffe dante
-addr : 81 macdougal st.  between houston and bleeker sts.
-postal : 10012
-latlng : (40.728878, -74.001662)
-
-name : caffe reggio
-addr : 119 macdougal st.  between 3rd and bleecker sts.
-postal : 10012
-latlng : (40.73030790000001, -74.0003706)
-
-19/10 positive, 19/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
-n
-
-name : pisces
-addr : 95 ave. a at 6th st.
-postal : 10009
-latlng : (40.72565100000001, -73.9840645)
-
-name : pisces
-addr : 95 ave. a
-postal : 10009
-latlng : (40.7256332, -73.984031)
-
-19/10 positive, 20/10 negative
-Do these records refer to the same thing?
-(y)es / (n)o / (u)nsure / (f)inished
-y
-
-INFO:dedupe.training:Final predicate set:
-INFO:dedupe.training:(SimplePredicate: (firstTokenPredicate, name), SimplePredicate: (sameSevenCharStartPredicate, postal))
-INFO:dedupe.training:(SimplePredicate: (commonTwoTokens, name), SimplePredicate: (fingerprint, name))
-INFO:dedupe.training:Final predicate set:
-INFO:dedupe.training:(SimplePredicate: (fingerprint, name), SimplePredicate: (latLongGridPredicate, latlng))
-INFO:dedupe.training:(SimplePredicate: (sameThreeCharStartPredicate, name), SimplePredicate: (wholeFieldPredicate, addr))
+INFO:dedupe.training:(SimplePredicate: (sameFiveCharStartPredicate, addr), SimplePredicate: (sameFiveCharStartPredicate, name))
+INFO:dedupe.training:(SimplePredicate: (latLongGridPredicate, latlng), SimplePredicate: (oneGramFingerprint, name))
