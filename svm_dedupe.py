@@ -49,6 +49,21 @@ class SVMDisagreementLearner(DisagreementLearner):
         self.y = numpy.array([])
         self.pairs = []
 
+        self.pop_from_disagreement = True
+
+    def pop(self):
+        if self.pop_from_disagreement:
+            [uncertain_pair] = super().pop()
+        else:
+            [uncertain_pair] = self.classifier.pop()
+            try:
+                self.blocker.remove(uncertain_pair)
+            except ValueError:
+                self.blocker.remove((uncertain_pair[1], uncertain_pair[0]))
+
+        self.pop_from_disagreement = not self.pop_from_disagreement
+        return [uncertain_pair]
+
 
 class SVMDedupe(Dedupe):
     classifier = SVC(kernel='linear', probability=True, tol=0.0001)
