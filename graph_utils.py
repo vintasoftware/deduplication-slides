@@ -30,7 +30,7 @@ def get_diff_pairs(
     )
 
 
-def draw_pairs_graph(df, edges, nodes, title):
+def draw_pairs_graph(df, edges, nodes, edge_labels_dict, title):
     G = nx.Graph()
     for node in nodes:
         G.add_node(node,
@@ -42,6 +42,8 @@ def draw_pairs_graph(df, edges, nodes, title):
     nx.draw_networkx_nodes(G, pos, alpha=0.3)
     nx.draw_networkx_labels(G, pos, labels=nx.get_node_attributes(G, 'name'), font_size=14)
     nx.draw_networkx_edges(G, pos, alpha=0.5)
+    edge_labels = {pair: edge_labels_dict[pair] for pair in edges}
+    nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_size=14)
     plt.margins(0.5, 0.2)
     plt.axis('off')
     plt.title(title, fontdict={'fontsize': 16, 'fontweight': 'bold'})
@@ -53,6 +55,7 @@ def show_cluster_graphs(
         golden_pairs_set,
         dedupe_found_pairs_set,
         dedupe_unclustered_found_pairs_set,
+        dedupe_unclustered_pairs_score_dict,
         diff_set_ids
 ):
     (
@@ -67,6 +70,9 @@ def show_cluster_graphs(
         diff_set_ids
     )
     display(df.loc[list(diff_all_ids)])
-    draw_pairs_graph(df, diff_true_pairs, diff_set_ids, "Truth")
-    draw_pairs_graph(df, diff_dedupe_unclustered_pairs, diff_set_ids, "Unclustered")
-    draw_pairs_graph(df, diff_dedupe_clustered_pairs, diff_set_ids, "Clustered")
+    draw_pairs_graph(
+        df, diff_true_pairs, diff_set_ids, dedupe_unclustered_pairs_score_dict, "Truth")
+    draw_pairs_graph(
+        df, diff_dedupe_unclustered_pairs, diff_set_ids, dedupe_unclustered_pairs_score_dict, "Unclustered")
+    draw_pairs_graph(
+        df, diff_dedupe_clustered_pairs, diff_set_ids, dedupe_unclustered_pairs_score_dict, "Clustered")
