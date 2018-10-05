@@ -1,6 +1,6 @@
 FROM jupyter/scipy-notebook:1145fb1198b2
 
-RUN pip install -r binder/requirements.txt
+RUN pip install -r requirements.txt
 
 ENV NB_USER user
 ENV NB_UID 1000
