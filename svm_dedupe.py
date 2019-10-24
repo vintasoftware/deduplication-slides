@@ -16,12 +16,12 @@ class SVMLearner(RLRLearner):
 
     def fit_transform(self, pairs, y):
         y = numpy.array(y)
-        if not y.any() and self.y.any():
+        if not y.any():
             random_pair = random.choice(self.candidates)
             exact_match = (random_pair[0], random_pair[0])
             pairs = pairs + [exact_match]
             y = numpy.concatenate([y, [1]])
-        elif numpy.count_nonzero(y) == len(y) and numpy.count_nonzero(self.y) == len(self.y):
+        elif numpy.count_nonzero(y) == len(y):
             random_pair = random.choice(self.candidates)
             pairs = pairs + [random_pair]
             y = numpy.concatenate([y, [0]])
@@ -29,8 +29,6 @@ class SVMLearner(RLRLearner):
         super().fit_transform(pairs, y)
 
     def fit(self, X, y):
-        self.y = y
-        self.X = X
         self.svm.fit(X, y)
 
     def predict_proba(self, examples):
@@ -49,20 +47,20 @@ class SVMDisagreementLearner(DisagreementLearner):
         self.y = numpy.array([])
         self.pairs = []
 
-        self.pop_from_disagreement = True
+    #     self.pop_from_disagreement = True
 
-    def pop(self):
-        if self.pop_from_disagreement:
-            [uncertain_pair] = super().pop()
-        else:
-            [uncertain_pair] = self.classifier.pop()
-            try:
-                self.blocker.remove(uncertain_pair)
-            except ValueError:
-                self.blocker.remove((uncertain_pair[1], uncertain_pair[0]))
+    # def pop(self):
+    #     if self.pop_from_disagreement:
+    #         [uncertain_pair] = super().pop()
+    #     else:
+    #         [uncertain_pair] = self.classifier.pop()
+    #         try:
+    #             self.blocker.remove(uncertain_pair)
+    #         except ValueError:
+    #             self.blocker.remove((uncertain_pair[1], uncertain_pair[0]))
 
-        self.pop_from_disagreement = not self.pop_from_disagreement
-        return [uncertain_pair]
+    #     self.pop_from_disagreement = not self.pop_from_disagreement
+    #     return [uncertain_pair]
 
 
 class SVMDedupe(Dedupe):
