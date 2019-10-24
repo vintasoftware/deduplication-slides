@@ -69,6 +69,7 @@ persistent==4.3.0
 pexpect==4.6.0
 phonenumbers==8.9.14
 pickleshare==0.7.4
+postal==1.1.7
 probableparsing==0.0.1
 probablepeople==0.5.4
 prometheus-client==0.3.1
@@ -89,7 +90,7 @@ qtconsole==4.3.1
 ratelim==0.1.6
 recordlinkage==0.13.2
 regex==2018.7.11
-requests==2.19.1
+requests==2.20.0
 rise==5.4.1
 rlr==2.4.5
 scikit-learn==0.19.2
