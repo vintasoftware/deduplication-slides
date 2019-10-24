@@ -84,14 +84,14 @@ python-crfsuite==0.9.6
 python-dateutil==2.7.3
 python-geohash==0.8.5
 pytz==2018.5
-PyYAML==5.1
+PyYAML==3.13
 pyzmq==17.1.0
 qtconsole==4.3.1
 ratelim==0.1.6
 recordlinkage==0.13.2
 regex==2018.7.11
-requests==2.20.0
-rise==5.4.1
+requests==2.19.1
+rise==5.5.1
 rlr==2.4.5
 scikit-learn==0.19.2
 scipy==1.1.0

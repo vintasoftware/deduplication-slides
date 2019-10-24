@@ -58,7 +58,7 @@ nbconvert==5.3.1
 nbdime==1.0.2
 nbformat==4.4.0
 networkx==2.2
-notebook==5.7.8
+notebook==5.6.0
 numexpr==2.6.8
 numpy==1.15.1
 pandas==0.23.4
@@ -83,14 +83,14 @@ python-crfsuite==0.9.6
 python-dateutil==2.7.3
 python-geohash==0.8.5
 pytz==2018.5
-PyYAML==5.1
+PyYAML==3.13
 pyzmq==17.1.0
 qtconsole==4.3.1
 ratelim==0.1.6
 recordlinkage==0.13.2
 regex==2018.7.11
-requests==2.20.0
-rise==5.4.1
+requests==2.19.1
+rise==5.5.1
 rlr==2.4.5
 scikit-learn==0.19.2
 scipy==1.1.0
@@ -107,7 +107,7 @@ traitlets==4.3.2
 treeinterpreter==0.2.1
 tzlocal==1.5.1
 Unidecode==1.0.22
-urllib3==1.24.2
+urllib3==1.23
 usaddress==0.5.10
 wcwidth==0.1.7
 webencodings==0.5.1
