@@ -108,7 +108,7 @@ traitlets==4.3.2
 treeinterpreter==0.2.1
 tzlocal==1.5.1
 Unidecode==1.0.22
-urllib3==1.23
+urllib3==1.24.2
 usaddress==0.5.10
 wcwidth==0.1.7
 webencodings==0.5.1
