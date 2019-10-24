@@ -37,17 +37,17 @@ def draw_pairs_graph(df, edges, nodes, edge_labels_dict, title):
                    name=str(node) + ':' + df.loc[node]['name'])
     G.add_edges_from(edges)
 
-    plt.figure(figsize=(10, 5))
+    plt.figure(figsize=(10, 6))
     pos = nx.circular_layout(G)
-    nx.draw_networkx_nodes(G, pos, alpha=0.3)
-    nx.draw_networkx_labels(G, pos, labels=nx.get_node_attributes(G, 'name'), font_size=14)
-    nx.draw_networkx_edges(G, pos, alpha=0.5)
+    nx.draw_networkx_nodes(G, pos, alpha=0.3, node_size=1000)
+    nx.draw_networkx_labels(G, pos, labels=nx.get_node_attributes(G, 'name'), font_size=20)
+    nx.draw_networkx_edges(G, pos, alpha=0.3, width=4)
     edge_labels = {pair: edge_labels_dict[pair] for pair in edges
                    if pair in edge_labels_dict}
-    nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_size=14)
+    nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_size=20)
     plt.margins(0.5, 0.2)
     plt.axis('off')
-    plt.title(title, fontdict={'fontsize': 16, 'fontweight': 'bold'})
+    plt.title(title, fontdict={'fontsize': 24, 'fontweight': 'bold'})
     plt.show()
 
 
