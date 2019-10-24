@@ -18,4 +18,4 @@ Jupyter Notebook da talk "1 + 1 = 1 ou Pareamento de Registros com Python", apre
 É possível rodar online, sem precisar instalar nada no seu computador! Clique aqui: [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/vintasoftware/deduplication-slides/master?filepath=slides-pt-br.ipynb)
 
 ## Rodando (Local)
-Instalar `libpostal` (instruções [aqui](https://github.com/openvenues/libpostal)) e `pip install -r requirements.txt`. Rodar `jupyter notebook`
+Instalar `libpostal` (instruções [aqui](https://github.com/openvenues/libpostal)) e `pip install -r requirements.txt`. Rodar `jupyter notebook` e abrir `slides-pt-br.ipynb`
