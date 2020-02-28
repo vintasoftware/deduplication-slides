@@ -84,7 +84,7 @@ python-dateutil==2.7.3
 python-dotenv==0.10.3
 python-geohash==0.8.5
 pytz==2018.5
-PyYAML==3.13
+PyYAML==5.1
 pyzmq==17.1.0
 qtconsole==4.3.1
 ratelim==0.1.6
