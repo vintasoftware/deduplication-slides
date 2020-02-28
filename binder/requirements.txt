@@ -90,7 +90,7 @@ qtconsole==4.3.1
 ratelim==0.1.6
 recordlinkage==0.13.2
 regex==2018.7.11
-requests==2.19.1
+requests==2.20.0
 rise==5.5.1
 rlr==2.4.5
 scikit-learn==0.19.2
