@@ -1,10 +1,5 @@
 dateparser
 dedupe
-dedupe-hcluster
-dedupe-variable-address
-dedupe-variable-datetime
-dedupe-variable-fuzzycategory
-dedupe-variable-name
 DoubleMetaphone
 geocoder
 jupyter
@@ -23,3 +18,4 @@ requests
 rise
 unidecode
 usaddress
+pip-tools

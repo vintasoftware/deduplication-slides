@@ -1,68 +1,60 @@
-from dedupe.api import Dedupe
-from dedupe.labeler import ActiveLearner, DisagreementLearner, BlockLearner, RLRLearner
-from sklearn.calibration import CalibratedClassifierCV
-from sklearn.svm.classes import SVC, LinearSVC
+import random
 
 import numpy
-import random
+from dedupe.api import Dedupe
+from dedupe.labeler import DedupeDisagreementLearner
+from dedupe.labeler import RLRLearner
+from sklearn.svm.classes import SVC
+
+
+def _build_model():
+    return SVC(kernel='rbf', probability=True)
 
 
 class SVMLearner(RLRLearner):
 
-    def __init__(self, data_model):
-        super().__init__(data_model)
+    def __init__(self, data_model, *args, **kwargs):
+        self.svm_classifier = _build_model()
+        super().__init__(data_model, *args, **kwargs)
 
-        self.svm = SVC(kernel='linear', probability=True, tol=0.0001)
-
-    def fit_transform(self, pairs, y):
+    def fit(self, X, y):
         y = numpy.array(y)
+
+        # This replicates Dedupe's behavior, adapting it to sklearn:
+        # if there are only non-matching examples on y,
+        #     grab a random record and consider it as a match with itself
+        # if there are only matching examples on y,
+        #     grab a random pair and consider it as a non-match
+        # Also, if both X and y are empty, do both things above.
+        # This happens on active learning when there's no existing training_pairs.
         if not y.any():
             random_pair = random.choice(self.candidates)
             exact_match = (random_pair[0], random_pair[0])
-            pairs = pairs + [exact_match]
+            X = numpy.vstack([X, self.transform([exact_match])])
             y = numpy.concatenate([y, [1]])
-        elif numpy.count_nonzero(y) == len(y):
+        if numpy.count_nonzero(y) == len(y):
             random_pair = random.choice(self.candidates)
-            pairs = pairs + [random_pair]
+            X = numpy.vstack([X, self.transform([random_pair])])
             y = numpy.concatenate([y, [0]])
 
-        super().fit_transform(pairs, y)
-
-    def fit(self, X, y):
-        self.svm.fit(X, y)
+        self.y = y
+        self.X = X
+        self.svm_classifier.fit(X, y)
 
     def predict_proba(self, examples):
-        return self.svm.predict_proba(examples)[:, 1].reshape(-1, 1)
+        return self.svm_classifier.predict_proba(examples)[:, 1].reshape(-1, 1)
 
 
-class SVMDisagreementLearner(DisagreementLearner):
+class SVMDisagreementLearner(DedupeDisagreementLearner):
 
-    def __init__(self, data_model):
-        self.data_model = data_model
-
-        self.classifier = SVMLearner(data_model)
-        self.blocker = BlockLearner(data_model)
-
+    def _common_init(self):
+        self.classifier = SVMLearner(self.data_model,
+                                     candidates=self.candidates)
         self.learners = (self.classifier, self.blocker)
         self.y = numpy.array([])
         self.pairs = []
 
-    #     self.pop_from_disagreement = True
-
-    # def pop(self):
-    #     if self.pop_from_disagreement:
-    #         [uncertain_pair] = super().pop()
-    #     else:
-    #         [uncertain_pair] = self.classifier.pop()
-    #         try:
-    #             self.blocker.remove(uncertain_pair)
-    #         except ValueError:
-    #             self.blocker.remove((uncertain_pair[1], uncertain_pair[0]))
-
-    #     self.pop_from_disagreement = not self.pop_from_disagreement
-    #     return [uncertain_pair]
-
 
 class SVMDedupe(Dedupe):
-    classifier = SVC(kernel='linear', probability=True, tol=0.0001)
+    classifier = _build_model()
     ActiveLearner = SVMDisagreementLearner
