@@ -1,5 +1,6 @@
 dateparser
 dedupe
+python-dotenv
 DoubleMetaphone
 geocoder
 jupyter
@@ -11,6 +12,7 @@ numexpr
 numpy
 pandas
 phonenumbers
+pip-tools
 postal
 probablepeople
 recordlinkage
@@ -18,4 +20,3 @@ requests
 rise
 unidecode
 usaddress
-pip-tools
