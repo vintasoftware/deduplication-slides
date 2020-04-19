@@ -2,8 +2,7 @@
     background-color: #fff;
 }
 
-
-.rendered_html table, .rendered_html th, .rendered_html tr, .rendered_html td {
+.rise-enabled .rendered_html table, .rise-enabled .rendered_html th, .rise-enabled .rendered_html tr, .rise-enabled .rendered_html td {
     font-size: 100%;
 }
 
