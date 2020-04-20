@@ -1,4 +1,4 @@
-| :warning: Looking for PyCon 2020 slides? They're on [`pycon-2020` branch. Please click here!](https://github.com/vintasoftware/deduplication-slides/tree/pycon-2020) |
+| :warning: Looking for PyCon US 2020 slides? They're on [`pycon-2020` branch. Please click here!](https://github.com/vintasoftware/deduplication-slides/tree/pycon-2020) |
 | --- |
 
 # 1 + 1 = 1 or Record Deduplication with Python
