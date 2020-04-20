@@ -1,3 +1,6 @@
+| :warning: Looking for PyCon 2020 slides? They're on [`pycon-2020` branch. Please click here!](https://github.com/vintasoftware/deduplication-slides/tree/pycon-2020) |
+| --- |
+
 # 1 + 1 = 1 or Record Deduplication with Python
 
 Jupyter Notebook from the talk "1 + 1 = 1 or Record Deduplication with Python", presented at [PyBay 2018](https://www.youtube.com/channel/UC51aOZF5nnderbuar5D5ifw/playlists) and [PyGotham 2018](https://2018.pygotham.org/talks/). The `slides.ipynb` version was presented at PyBay, while the `slides-reduced.ipynb` version was presented at PyGotham.
